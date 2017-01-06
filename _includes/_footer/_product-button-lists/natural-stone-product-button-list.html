@@ -1,0 +1,7 @@
+{% assign natural = site.products | where:"type","Natural Stone" %}
+<h3 class="footer__title title">Natural Stone Countertops</h3>
+<ul class="product-button-list control is-grouped">
+    {% for product in natural %}
+    <li class="product-button-list__item control"><a class="product-button-list__button button is-primary is-medium is-outlined" href="{{ product.url }}">{{ product.materials | capitalize_all }}</a></li>
+    {% endfor %}
+</ul>

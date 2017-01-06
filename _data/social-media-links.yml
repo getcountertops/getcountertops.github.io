@@ -1,0 +1,10 @@
+- name: twitter
+  url: http://twitter.com
+- name: facebook
+  url: http://facebook.com
+- name: instagram
+  url: http://instagram.com   
+- name: houzz
+  url: http://houzz.com
+- name: google-plus
+  url: http://google.com

@@ -1,0 +1,42 @@
+.nav {
+  list-style: none;
+}
+
+.nav__item {
+  display: inline;
+  padding-left: em(10px);
+
+   a {
+     text-decoration: none;
+     font-family: $sans-serif;
+     font-weight: 700;
+
+     &:focus,
+     &:hover {
+
+     }
+   }
+ }
+
+
+.nav ul {
+     position: absolute;
+     display: none;
+     height: auto;
+    left: 73.5%;
+    padding: 14px;
+    top: 67%;
+    width: 300px;
+    background: $white;
+ }
+
+.nav li:hover ul {
+    display: block;
+}
+
+/* First Tier Dropdown */
+.nav ul li {
+    min-width:170px;
+    display:list-item;
+    position: relative;
+}

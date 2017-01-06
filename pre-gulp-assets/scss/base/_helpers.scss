@@ -1,0 +1,39 @@
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+.rounded-corners {
+  @include border-top-radius(3px);
+  @include border-bottom-radius(3px);
+}
+
+.img-circle {
+  @include border-top-radius(50%);
+  @include border-bottom-radius(50%);
+}
+
+.border-bottom {
+    border-bottom: 1px solid $black;
+    padding-bottom: 5em;
+}
+
+.border-top {
+    border-top: 1px solid $black;
+    padding-top: 2em;
+}
+
+.is-first-heading {
+  margin-top: 0;
+}
+
+.defer-img > img {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.fixedsticky {
+  position: sticky;
+}

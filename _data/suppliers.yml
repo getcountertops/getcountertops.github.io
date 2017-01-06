@@ -1,0 +1,35 @@
+- name: Silestone USA
+  url: http://www.silestoneusa.com/colors/
+  material: quartz
+  logo: silestone-logo.png
+
+- name: Caesarstone US
+  url: http://www.caesarstoneus.com/en/Gallery/Ultramodern/Pages/default.aspx
+  material: quartz 
+  logo: caesarstone-logo.png
+
+- name: Cambria USA
+  url: http://www.cambriausa.com/Designs/design-palette/
+  material: quartz 
+  logo: cambria-logo.png
+
+- name: Dupont
+  url: http://www.dupont.com/products-and-services/construction-materials/surface-design-materials/brands/zodiaq-quartz-surfaces.html
+  material: quartz 
+  solid-surface: http://www.dupont.com/products-and-services/construction-materials/surface-design-materials/brands/corian-solid-surfaces/products/corian-all-colors.html
+  logo: du-pont-logo.png 
+
+- name: Dupont
+  url: http://www.dupont.com/products-and-services/construction-materials/surface-design-materials/brands/corian-solid-surfaces/products/corian-all-colors.html
+  material: solid-surface 
+  logo: du-pont-logo.png 
+
+- name: Wilsonart
+  url: http://www.wilsonart.com/quartz/design-library
+  material: quartz 
+  logo: wilsonart-logo.png 
+
+- name: Hi-Macs
+  url: http://www.lghimacsusa.com/productOverviews/0/33/by-product-line
+  material: solid-surface 
+  logo: hi-macs-logo.png

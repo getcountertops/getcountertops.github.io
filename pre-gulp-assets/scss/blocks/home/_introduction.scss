@@ -1,0 +1,29 @@
+// .main {
+//   @include container($full-container-width);
+//   // @include with-layout($sidebar) {
+//   //     margin-left: span(1 wide static);
+//   //   }
+//   // margin: 3em auto;
+// }
+
+.main__text {
+  @include span(7 of 16);
+  margin-right: span(1 of 16);
+}
+
+.main__image {
+  @include span(8 of 16 last);
+  // margin-left: span(6 of 16);
+  // width: 44.5%;
+  // position: fixed;
+  top: 120px;
+}
+
+// .unslider-fade {
+//   position: static !important;
+// }
+//
+// .unslider-nav {
+//   position: absolute;
+//   top: 480px;
+// }

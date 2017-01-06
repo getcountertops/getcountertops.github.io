@@ -1,0 +1,10 @@
+.header-bar {
+    background: $blue;
+
+
+    .title, .subtitle {
+		 color: $white;
+		 font-family: $family-sans-serif;
+    	 font-weight: 700;
+	}
+}

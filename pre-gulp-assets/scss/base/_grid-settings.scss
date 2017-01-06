@@ -1,0 +1,50 @@
+// Configuring Susy Defaults
+$susy: (
+  global-box-sizing: border-box,
+  use-custom: (rem: true
+    )
+  );
+
+$sidebar: (
+  math: static,
+  output: isolate,
+  container: 50px,
+  columns: 1,
+  column-width: 50px,
+  use-custom: (
+    rem: true,
+  )
+);
+
+$intro-image: (
+  math: static,
+  output: isolate,
+  container: 500px,
+  columns: 1,
+  column-width: 500px,
+  use-custom: (
+    rem: true,
+  )
+);
+
+// static settings
+//  $susy: ( math: static, columns: 4, column-width: 60px, gutters: 1 / 4, use-custom: (rem: true) );
+//
+// @include border-box-sizing;
+
+
+// default flexygrid settings
+// wrap:            wrap,
+// columns:         12,
+// direction:       row,
+// align-items:     flex-start,
+// align-content:   center,
+// justify-content: flex-start,
+// gutter-position: split,
+// gutters:         0.25,
+// order:           0,
+// flex-grow:       0,
+// flex-shrink:     1,
+// align-self:      auto
+//
+// @include flexygrid-settings();

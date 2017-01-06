@@ -1,0 +1,6 @@
+ <h3 class="footer__title title">Cultured Marble</h3>
+    <ul class="product-button-list control is-grouped">
+        {% for product in site.products %} {% if product.category contains "cultured marble" %}
+        <li class="product-button-list__item control"><a class="product-button-list__button button is-medium is-outlined" href="{{ product.url }}">{{ product.title }}</a></li>
+        {% endif %} {% endfor %}
+    </ul>

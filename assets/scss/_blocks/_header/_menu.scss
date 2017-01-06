@@ -1,0 +1,37 @@
+.nav {
+    z-index: 10;
+    height: 89px;
+    align-items: center;
+    border-bottom: 1px solid $grey-lighter;
+}
+.menu__item {
+    font-family: $family-sans-serif;
+    font-weight: 700;
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav ul ul {
+    display: none;
+    position: absolute;
+    top: 1em;
+    left:0;
+    text-align: left;
+    left: -17%;
+    padding: 1.5em;
+    width: 16em;
+    background-color: #fffff8;
+    z-index: 28;
+}
+
+.nav ul li:hover > ul
+{
+    display:block
+}
+
+.nav-item {
+    position: relative;
+    z-index: 30;
+}

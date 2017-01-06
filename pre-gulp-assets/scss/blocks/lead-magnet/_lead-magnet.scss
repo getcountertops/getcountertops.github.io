@@ -1,0 +1,75 @@
+// // Top Lead Magnet Layout
+.lead-magnet {
+  @include container($base-container-width);
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  margin: 5em 0 2em 8.3em;
+  max-width: 81%;
+  @include border-top-radius(3px);
+  @include border-bottom-radius(3px);
+  position: relative;
+  z-index: 10;
+
+
+
+@include breakpoint($tablet) {
+  display: block;
+}
+
+@include breakpoint(960px) {
+  display: flex;
+}
+
+}
+
+.lead-magnet__text {
+  flex: 1 1 5%;
+}
+
+.lead-magnet__form {
+  flex: 1;
+  margin-left: 3em;
+
+  .lead-magnet__form__button {
+    display: inline;
+      background-color: $white;
+      color: $primary;
+      margin-left: .5em;
+      font-size: 1em;
+      height: rem(47);
+   width: rem(97);
+  }
+
+
+  .lead-magnet__form__input {
+    font-size: 1em;
+    height: 2.25em;
+    margin: 1em 0;
+      width: 70%;
+      display: inline;
+  }
+
+}
+
+.lead-magnet {
+  background: $primary;
+}
+
+.lead-magnet__text {
+  padding: 7px 0 0 15px;
+  color: $white;
+  font-family: $sans-serif;
+
+  .heading {
+    margin-bottom: 0;
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+
+  .subheading {
+    margin: -7px 0 0;;
+    font-size: 1em;
+  }
+
+}

@@ -1,0 +1,39 @@
+--- 
+layout: default
+---
+<section class="hero is-success is-fullheight" role="section">
+  <div class="hero-body hero-{{ product-title-lc }}">
+    <div class="container">
+      <h1 class="title">
+        {{ page.hero-title }}
+      </h1>
+      <h2 class="subtitle">
+        {{ page.hero-subtitle }}
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section vocab="http://schema.org/" typeof="page" class="section" role="section">
+    <div class="container">
+        <div class="columns is-multiline">
+        <div id="breadcrumbs" class="column is-12 fixedsticky">
+        {% include _navigation/nav-breadcrumbs.html %}
+        </div>
+            <div class="column is-5 content">
+                {{ page.content }}
+                <p property="description">{{ page.description }}</p>
+
+                <div property="offers" typeof="AggregateOffer">
+                    <span property="lowPrice">$1250</span> to <span property="highPrice">$1495</span>
+                </div>
+            </div>
+            <div class="column is-offset-1">
+                <figure class="image is-16by9"><img property="image" src="{{ page.description-image }}"></figure>
+            </div>  
+            <div class="column is-12">
+<figure class="image is-16by9"><img property="image" src="{{ page.description-image }}"></figure>
+</div>       
+        </div>
+    </div>
+</section>

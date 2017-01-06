@@ -1,0 +1,17 @@
+<section class="section" role="section">
+    <div class="container">
+        <div class="columns is-multiline">
+            {% for supplier in site.data.suppliers %}
+            {% for material in page.materials %}
+            {% if supplier.material contains material %}
+            <div class="column is-3">
+                <a href="{{ supplier.url }}"><figure class="image">
+                    <img src="{{ site.url }}/assets/images/logos/{{ supplier.logo }}">
+                </figure></a>
+            </div>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

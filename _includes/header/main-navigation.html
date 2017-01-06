@@ -1,0 +1,27 @@
+{% assign products = site.products | where:"main-menu", "true" | sort: 'number' %}
+
+<nav id="main-navigation" role="navigation" class="header__navigation">
+  <h2 class="visuallyhidden">Main Navigation</h2>
+  <ul class="nav">
+    <li class="nav__item"><a href="{{ site.url }}/about">About</a></li>
+    <li class="nav__item"><a href="{{ site.url }}/about">Countertops</a></li>
+    <li class="nav__item"><a href="{{ site.url }}/about">Surrounds</a></li>
+    <li class="nav__item"><a href="{{ site.url }}/about">Thresholds</a></li>
+    <li class="nav__item"><a href="{{ site.url }}/about">Window Sills</a></li>
+    <!-- <li class="nav__item"><a href="{{ site.url }}/products">Products</a>
+
+    <ul>
+      <li class="nav__item"><a href="{{ site.url }}/ultimate-countertop-guide">Ultimate Countertop Guide</a></li>
+      {% for product in products %}
+      <li class="nav__item"><a href="{{ product.url }}">{{ product.title }}</a></li>
+      {% endfor %}
+      <li class="nav__item"><a href="{{ site.url }}/stone-remnants/">Stone Remnants</a></li>
+    </ul>
+    </li> -->
+    <!-- <li class="nav__item"><a href="{{ site.url }}/#contact">Free Quote</a></li> -->
+    <li class="nav__item"><a href="tel:+140729830655">+1 (407) 298-3065</a></li>
+    <!-- <li class="nav__item"><a href="tel:+140729830655">Click to Call</a></li> -->
+
+    </li>
+  </ul>
+</nav>

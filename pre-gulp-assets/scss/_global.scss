@@ -1,0 +1,47 @@
+::selection {
+    background: $highlight;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: $highlight;
+    /* Gecko Browsers */
+}
+
+// Body
+
+body {
+  background-color: $white;
+  // background: $grey-lighter;
+  color: $black;
+}
+
+
+
+// Wrap
+.home-wrap {
+  @include container($base-container-width);
+  // margin-left: span(1 of 12);
+  // margin-left: 100px;
+  // @include with-layout($sidebar) {
+  //     margin-left: span(1 static);
+  //   }
+  margin-top: 2em;
+}
+
+.wrap {
+  @include container($base-container-width);
+  // margin-left: span(1 of 12);
+  // margin-left: 100px;
+  // @include with-layout($sidebar) {
+  //     margin-left: span(1 static);
+  //   }
+  margin-top: 3em;
+}
+
+.main {
+  @include container();
+  @include with-layout($sidebar) {
+      margin-left: span(1 wide static);
+    }
+}

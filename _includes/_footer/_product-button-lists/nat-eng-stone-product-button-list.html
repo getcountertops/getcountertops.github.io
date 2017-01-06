@@ -1,0 +1,9 @@
+ {% assign surrounds = site.products | where:"category", "surrounds" %}
+<h3 class="footer__title title">Natural and Engineered Stone Products</h3>
+<ul class="product-button-list control is-grouped">
+    {% for product in surrounds %}
+    <li class="product-button-list__item control"><a class="product-button-list__button button is-medium is-outlined" href="{{ product.url }}">{{ product.title }}</a></li>
+    {% endfor %}
+    <li class="product-button-list__item control"><a class="product-button-list__button button is-medium  is-outlined" href="{{ site.url }}/products/thresholds">Thresholds</a></li>
+    <li class="product-button-list__item control"><a class="product-button-list__button button is-medium is-outlined" href="{{ site.url }}/products/window-sills">Window Sills</a></li>
+</ul>

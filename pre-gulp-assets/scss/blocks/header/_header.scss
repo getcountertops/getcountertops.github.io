@@ -1,0 +1,53 @@
+@import "nav";
+
+// // Header Layout
+.header-wrap {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: $white;
+  // margin: 2% 0 0 4%;
+  // border-bottom: 1px solid $grey-lighter;
+}
+//
+.header {
+  // @include container(76%);
+  @include container($full-container-width);
+  margin-left: 11.5%;
+  margin-right: 7.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  height: 80px;
+  border-bottom: 1px solid $grey-lighter;
+
+  .header__logo-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .header__navigation {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+
+// // Header Styles
+// .header-wrap {
+//   background: $white;
+// }
+//
+.header__logo-wrap__logo {
+  font-family: $sans-serif-condensed;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  // left: 12px;
+  // position: absolute;
+  // top: 102px;
+}
