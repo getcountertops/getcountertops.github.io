@@ -6,9 +6,9 @@ description: description
 url: https://getcountertops.github.io
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
-source: .tmp/src
-destination: .tmp/dist
-exclude: ['assets']
+# source: .tmp/src
+# destination: .tmp/dist
+# exclude: ['assets']
 
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
