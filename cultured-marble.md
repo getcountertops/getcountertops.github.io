@@ -1,12 +1,8 @@
 ---
-layout: surrounds-page
-title: Surrounds
-category:
-main-menu: true
-materials:
-number: 6
+layout: default
+title: Cultured Marble
+permalink: /products/cultured-marble/
 ---
-
 <div class="content">
 <div class="content__text">
 <p class="is-first-heading h2">Solid Artistry and Service</p>

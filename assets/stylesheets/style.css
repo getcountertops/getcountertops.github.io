@@ -564,6 +564,15 @@ picture {
   margin: 0;
   max-width: 100%; }
 
+.bold {
+  font-weight: 700; }
+
+.medium {
+  font-weight: 600; }
+
+.sans-serif {
+  font-family: "Source Sans Pro", sans-serif; }
+
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden {
   border: 0;
@@ -849,7 +858,32 @@ picture {
 
 .landing {
   height: 100vh;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/concrete_wall_2.png"), linear-gradient(180deg, #fffff8, #fffff8), center no-repeat #fffff8 scroll; }
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/concrete_wall_2.png"), linear-gradient(180deg, #fffff8, #fffff8), center no-repeat #fffff8 scroll;
+  display: flex; }
+
+.landing__wrap {
+  flex: 1;
+  display: flex; }
+
+.landing__text {
+  margin: 3em 0 0 4em; }
+
+.landing__form {
+  flex: 1; }
+  .landing__form .landing__form__button {
+    display: inline;
+    background-color: #884ea0;
+    color: #fffff8;
+    margin-left: .5em;
+    font-size: 1em;
+    height: 2.9375rem;
+    width: 6.0625rem; }
+  .landing__form .landing__form__input {
+    font-size: 1em;
+    height: 2.25em;
+    margin: 1em 0;
+    width: 70%;
+    display: inline; }
 
 .texture .texture-normal {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }

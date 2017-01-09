@@ -1,7 +1,8 @@
 .landing {
   height:100vh;
-  // background: $blue;
   @include texture(180deg, $white, $white, 54, 1);
+
+  display: flex;
 
   // background: url('http://localhost:3000/assets/images/kitchen-1.jpg') no-repeat center center fixed;
   // -webkit-background-size: cover;
@@ -9,6 +10,61 @@
   // -o-background-size: cover;
   // background-size: cover;
 }
+
+.landing__wrap {
+  flex: 1;
+  display: flex;
+}
+
+
+.landing__text {
+margin: 3em 0 0 4em;
+}
+
+.landing__video {
+
+}
+
+.landing__form {
+  flex: 1;
+
+  .landing__form__button {
+    display: inline;
+      background-color: $primary;
+      color: $white;
+      margin-left: .5em;
+      font-size: 1em;
+      height: rem(47);
+   width: rem(97);
+  }
+
+
+  .landing__form__input {
+    font-size: 1em;
+    height: 2.25em;
+    margin: 1em 0;
+      width: 70%;
+      display: inline;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // The mixin above should preferably be in a file of its own. Below is the code for the object that has the texture.
 

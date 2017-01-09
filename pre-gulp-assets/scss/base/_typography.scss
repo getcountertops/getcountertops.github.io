@@ -81,3 +81,15 @@ picture {
   margin: 0;
   max-width: 100%;
 }
+
+.bold {
+  font-weight: 700;
+}
+
+.medium {
+  font-weight: 600;
+}
+
+.sans-serif {
+  font-family: $sans-serif;
+}
