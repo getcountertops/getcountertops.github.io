@@ -26,7 +26,7 @@ body {
   // @include with-layout($sidebar) {
   //     margin-left: span(1 static);
   //   }
-  margin-top: 2em;
+  margin-top: 3em;
 }
 
 .wrap {
@@ -39,7 +39,7 @@ body {
   margin-top: 3em;
 }
 
-.main {
+.content {
   @include container();
   @include with-layout($sidebar) {
       margin-left: span(1 wide static);

@@ -1,0 +1,28 @@
+.breadcrumbs-wrap {
+  width: 100%;
+  position: fixed;
+  top: 2.9em;
+  background: $white;
+  z-index: 9;
+  // margin: 2% 0 0 4%;
+  // border-bottom: 1px solid $grey-lighter;
+}
+//
+.breadcrumbs {
+  // @include container(76%);
+  @include container($full-container-width);
+  margin-left: 11.5%;
+  margin-right: 7.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  height: 44px;
+  border-bottom: 1px solid $grey-lighter;
+
+  .header__breadcrumbs-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

@@ -1,11 +1,7 @@
 ---
-layout: product-page
+layout: countertops-page
 title: Granite Countertops
-description: countertops description
-hero-image: http://placehold.it/640x360
-hero-title: Our Work is Tops
-hero-subtitle: She was dressed in green silk gauze and wore upon her flowing green locks a crown of jewels.  Growing from her shoulders were wings, gorgeous in color and so light that they fluttered if the slightest breath of air reached them.
-description-image: http://placehold.it/640x360
+permalink: products/countertops/granite/
 category: countertops
 main-menu: true
 materials: granite
@@ -13,7 +9,19 @@ type:
  - Natural Stone
 number: 1
 ---
+<div class="content">
 
-<h2 class="title">About Our Countertops</h2>
+<div class="content__text">
+<p class="is-first-heading h2">Solid Artistry and Service</p>
+<p class="h3">With 30 years of experience, we're ready to turn your vision into a lasting reality.</p>
 
-"I am Oz, the Great and Terrible. Why do you seek me?" They looked again in every part of the room, and then, seeing no one, Dorothy asked, "Where are you?" "I am everywhere," answered the Voice, "but to the eyes of common mortals I am invisible. I will now seat myself upon my throne, that you may converse with me." Indeed, the Voice seemed just then to come straight from the throne itself; so they walked toward it and stood in a row while Dorothy said: "We have come to claim our promise, O Oz."
+Tired of your old kitchen? Imagine something new. Dream big. Cook and dine in a space that inspires you. Does it have refined, natural stone or engineered beauty? Is it subtle and sophisticated, or vibrant with lots of personality?
+
+She was still shaping her vision, but knew her firm budget. With fair, expert advise and personal service, we transformed her home in an unexpected way. Let me explain.
+</div>
+
+<div class="content__image fixedsticky">
+<img src="{{ site.url }}/assets/images/kitchen-2.jpg">
+</div>
+
+</div>

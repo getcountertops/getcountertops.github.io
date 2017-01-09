@@ -632,10 +632,13 @@ picture {
   display: none;
   height: auto;
   left: 73.5%;
-  padding: 14px;
+  padding: 0.875em;
   top: 67%;
   width: 300px;
   background: #fffff8; }
+
+.nav:first-child {
+  padding-left: 0; }
 
 .nav li:hover ul {
   display: block; }
@@ -646,9 +649,36 @@ picture {
   display: list-item;
   position: relative; }
 
-.header-wrap {
+.breadcrumbs-wrap {
   width: 100%;
   position: fixed;
+  top: 2.9em;
+  background: #fffff8;
+  z-index: 9; }
+
+.breadcrumbs {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 11.5%;
+  margin-right: 7.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  height: 44px;
+  border-bottom: 1px solid #dbdbdb; }
+  .breadcrumbs:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  .breadcrumbs .header__breadcrumbs-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+
+.header-wrap {
+  width: 100%;
   top: 0;
   z-index: 100;
   background: #fffff8; }
@@ -662,7 +692,7 @@ picture {
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
-  height: 80px;
+  height: 60px;
   border-bottom: 1px solid #dbdbdb; }
   .header:after {
     content: " ";
@@ -747,13 +777,13 @@ picture {
     margin: -7px 0 0;
     font-size: 1em; }
 
-.main__text {
+.content__text {
   width: 43.0379746835%;
   float: left;
   margin-right: 1.2658227848%;
   margin-right: 5.0632911392%; }
 
-.main__image {
+.content__image {
   width: 49.3670886076%;
   float: right;
   margin-right: 0;
@@ -817,6 +847,16 @@ picture {
   margin-left: 0;
   margin-right: 0; }
 
+.landing {
+  height: 100vh;
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/concrete_wall_2.png"), linear-gradient(180deg, #fffff8, #fffff8), center no-repeat #fffff8 scroll; }
+
+.texture .texture-normal {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }
+
+.texture .texture-inverted {
+  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }
+
 ::-moz-selection {
   background: #FFF8DC;
   /* WebKit/Blink Browsers */ }
@@ -837,7 +877,7 @@ body {
   max-width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2em; }
+  margin-top: 3em; }
   .home-wrap:after {
     content: " ";
     display: block;
@@ -853,12 +893,12 @@ body {
     display: block;
     clear: both; }
 
-.main {
+.content {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-left: 62.5px; }
-  .main:after {
+  .content:after {
     content: " ";
     display: block;
     clear: both; }

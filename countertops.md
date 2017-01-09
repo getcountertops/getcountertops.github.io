@@ -1,10 +1,7 @@
 ---
 layout: countertops-page
-title: Ultimate Countertop Guide
-permalink: /ultimate-countertop-guide/
-main-menu: true
-category: countertops
-materials: granite, marble, quartzite, quartz, solid-surface, cultured-marble
+title: Countertops
+permalink: /products/countertops/
 ---
 <div class="content">
 <div class="content__text">

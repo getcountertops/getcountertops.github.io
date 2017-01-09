@@ -24,11 +24,15 @@
      display: none;
      height: auto;
     left: 73.5%;
-    padding: 14px;
+    padding: em(14px);
     top: 67%;
     width: 300px;
     background: $white;
  }
+
+.nav:first-child {
+  padding-left: 0;
+}
 
 .nav li:hover ul {
     display: block;

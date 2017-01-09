@@ -1,0 +1,29 @@
+.landing {
+  height:100vh;
+  // background: $blue;
+  @include texture(180deg, $white, $white, 54, 1);
+
+  // background: url('http://localhost:3000/assets/images/kitchen-1.jpg') no-repeat center center fixed;
+  // -webkit-background-size: cover;
+  // -moz-background-size: cover;
+  // -o-background-size: cover;
+  // background-size: cover;
+}
+
+// The mixin above should preferably be in a file of its own. Below is the code for the object that has the texture.
+
+.texture {
+  $texture-top-background: lighten($white, 1%);
+  $texture-bottom-background: darken($white, 10%);
+
+
+  .texture-normal {
+    // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, 61, 1);
+  }
+
+  .texture-inverted {
+    // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal
+    @include texture(180deg, $texture-top-background, $texture-bottom-background, 61, 0);
+  }
+}
