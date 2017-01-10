@@ -5,31 +5,65 @@
 
 - name: Caesarstone US
   url: http://www.caesarstoneus.com/en/Gallery/Ultramodern/Pages/default.aspx
-  material: quartz 
+  material: quartz
   logo: caesarstone-logo.png
 
 - name: Cambria USA
   url: http://www.cambriausa.com/Designs/design-palette/
-  material: quartz 
+  material: quartz
   logo: cambria-logo.png
 
-- name: Dupont
-  url: http://www.dupont.com/products-and-services/construction-materials/surface-design-materials/brands/zodiaq-quartz-surfaces.html
-  material: quartz 
-  solid-surface: http://www.dupont.com/products-and-services/construction-materials/surface-design-materials/brands/corian-solid-surfaces/products/corian-all-colors.html
-  logo: du-pont-logo.png 
+- name: Dupont Zodiaq
+  url: http://www.dupont.com/products-and-services/construction-materials/surface-design-materials/brands/zodiaq-quartz-surfaces/products/zodiaq-all-colors.html
+  material: quartz
+  logo: zodiaq-logo.png
 
-- name: Dupont
+- name: Dupont Corian
   url: http://www.dupont.com/products-and-services/construction-materials/surface-design-materials/brands/corian-solid-surfaces/products/corian-all-colors.html
-  material: solid-surface 
-  logo: du-pont-logo.png 
+  material: solid-surface
+  logo: corian-logo.png
 
 - name: Wilsonart
-  url: http://www.wilsonart.com/quartz/design-library
-  material: quartz 
-  logo: wilsonart-logo.png 
+  url: http://www.wilsonart.com/solid-surface/design-library
+  material: solid-surface
+  logo: wilsonart-logo.png
 
-- name: Hi-Macs
+- name: LG Hausys Hi-Macs
   url: http://www.lghimacsusa.com/productOverviews/0/33/by-product-line
-  material: solid-surface 
+  material: solid-surface
   logo: hi-macs-logo.png
+
+- name: Samsung Radianz
+  url: http://www.staron.com/radianz/eng/contents/colorwall/list.do
+  material: quartz
+  logo: radianz-logo.png
+
+- name: Pompeii Quartz
+  url: http://www.pompeiiquartz.com/Products.asp
+  material: quartz
+  logo: pompeii-quartz-logo.png
+
+- name: Technistone
+  url: http://www.technistone.com/en/color
+  material: quartz
+  logo: technistone-logo.png
+
+- name: LG Hausys Viatera
+  url: http://www.lgviaterausa.com/productOverviews/83/by-product-line
+  material: quartz
+  logo: viatera-logo.png
+
+- name: Samsung Staron
+  url: http://www.staron.com/staron/eng/contents/colorwall/list.do
+  material: solid-surface
+  logo: staron-logo.png
+
+- name: Avonite
+  url: http://www.avonite.com/colors/
+  material: solid-surface
+  logo: avonite-logo.png
+
+- name: LivingStone
+  url: http://www.livingstonesurfaces.com/color-swatches
+  material: solid-surface
+  logo: livingstone-logo.png

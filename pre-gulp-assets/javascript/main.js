@@ -4,6 +4,10 @@ jQuery(document).ready(function($) {
   $('.sidebar').fixedsticky();
   $('#breadcrumbs').fixedsticky();
 
+//   $('.countertops').hover(function() {
+//     $('.breadcrumbs-wrap').toggle();
+// });
+
   var $toggle = $('#nav-toggle');
   var $menu = $('#nav-menu');
 

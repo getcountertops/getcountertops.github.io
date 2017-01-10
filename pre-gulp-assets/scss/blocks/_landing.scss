@@ -43,7 +43,9 @@
       margin-left: .5em;
       font-size: 1em;
       height: rem(47);
-   width: 5.9em;
+      padding: 0 12px;
+      width: inherit;
+      border-bottom: 4px solid shade($primary, 30%);
   }
 
 
