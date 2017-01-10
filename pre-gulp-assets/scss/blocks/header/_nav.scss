@@ -34,6 +34,11 @@
   padding-left: 0;
 }
 
+.nav__item--first {
+  padding-left: 0;
+  display: inline;
+}
+
 .nav li:hover ul {
     display: block;
 }

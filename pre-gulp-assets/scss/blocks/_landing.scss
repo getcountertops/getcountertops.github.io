@@ -1,6 +1,6 @@
 .landing {
   height:100vh;
-  @include texture(180deg, $white, $white, 54, 1);
+  @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
 
   display: flex;
 
@@ -11,18 +11,26 @@
   // background-size: cover;
 }
 
-.landing__wrap {
+.landing__text-wrap {
+  // flex: 2 0 20%;
+  display: flex;
+  margin: 3em auto 0;
+    width: 35em;
+}
+
+.landing__video-wrap {
   flex: 1;
   display: flex;
 }
 
 
 .landing__text {
-margin: 3em 0 0 4em;
+// margin: 3em 0 0 4em;
 }
 
 .landing__video {
-
+  margin: 3em;
+    width: 27em;
 }
 
 .landing__form {
@@ -35,7 +43,7 @@ margin: 3em 0 0 4em;
       margin-left: .5em;
       font-size: 1em;
       height: rem(47);
-   width: rem(97);
+   width: 5.9em;
   }
 
 
@@ -49,9 +57,9 @@ margin: 3em 0 0 4em;
 
 }
 
-
-
-
+.film-link {
+   margin: 2em 0 0 5.4em;
+}
 
 
 

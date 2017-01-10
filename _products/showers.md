@@ -1,7 +1,7 @@
 ---
 layout: surrounds-page
-title: Fireplace
-permalink: /products/surrounds/fireplace/
+title: Showers
+permalink: /products/surrounds/showers/
 category: surrounds
 materials:
 ---

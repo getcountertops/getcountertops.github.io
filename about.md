@@ -4,5 +4,5 @@ title: Our Story
 permalink: /about/
 ---
 <div class="content">
-{% include history.html %}
+{% include our-story.html %}
 </div>
