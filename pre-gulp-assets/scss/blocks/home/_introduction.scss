@@ -10,3 +10,20 @@
   // position: fixed;
   top: 120px;
 }
+
+.slider {
+  height: 425px;
+  overflow: hidden;
+}
+
+.our-story-slider-nav {
+    text-align: center;
+}
+
+
+
+.slider-arrow {
+  margin-right: .7em;
+  font-size: 1.4em;
+  color: $grey-darker;
+}

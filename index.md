@@ -2,4 +2,5 @@
 layout: home
 ---
 
-{% include introduction.html %}
+{% include our-story.html %}
+{% include process.html %}

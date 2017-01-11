@@ -5,30 +5,23 @@
 .nav__item {
   display: inline;
   padding-left: em(10px);
+  z-index: 100;
 
-   a {
-     text-decoration: none;
-     font-family: $sans-serif;
-     font-weight: 700;
+  a {
+    text-decoration: none;
+    font-family: $sans-serif;
+    font-weight: 700;
 
-     &:focus,
-     &:hover {
-
-     }
-   }
- }
-
+    &:focus,
+    &:hover {}
+  }
+}
 
 .nav ul {
-     position: absolute;
-     display: none;
-     height: auto;
-    left: 73.5%;
-    padding: em(14px);
-    top: 67%;
-    width: 300px;
-    background: $white;
- }
+  position: relative;
+  top: 45%;
+  background: $white;
+}
 
 .nav:first-child {
   padding-left: 0;
@@ -39,9 +32,83 @@
   display: inline;
 }
 
-/* First Tier Dropdown */
-.nav ul li {
-    min-width:170px;
-    display:list-item;
-    position: relative;
+.nav li:hover .dropdown,.nav li:hover .dropdown-surrounds {
+  display: block;
 }
+
+// .nav .dropdown ul {
+//   position: relative;
+//   margin-top: none;
+// }
+
+.dropdown {
+  position: absolute;
+  top: 2.9em;
+  width: 100%;
+  display: none;
+  z-index: 5;
+  background: $white;
+
+  .nav {
+    position: relative;
+    height: 38px;
+    padding: 4px 0;
+  }
+
+  .nav li a {
+    font-weight: 600;
+  }
+}
+
+.dropdown-surrounds {
+  position: absolute;
+  top: 2.9em;
+  width: 100%;
+  display: none;
+  z-index: 5;
+  background: $white;
+
+  .nav {
+    left: 271px;
+    position: relative;
+    height: 38px;
+    padding: 4px 0;
+  }
+
+  .nav li a {
+    font-weight: 600;
+  }
+}
+
+.nav i {
+  font-size: .7em;
+  left: 2px;
+    position: relative;
+    top: -1px;
+}
+
+.countertop-safety {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  width: 135px;
+  height: 100px;
+}
+
+.surrounds-safety {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
+  background-repeat: repeat;
+  height: 61px;
+    left: 20.9em;
+    position: absolute;
+    top: 0;
+    width: 121px;
+}
+
+// /* First Tier Dropdown */
+// .nav ul li {
+//     min-width:170px;
+//     display:list-item;
+//     position: relative;
+// }

@@ -1,12 +1,12 @@
 @import "nav";
 @import "breadcrumbs";
 
-// // Header Layout
+// Header Layout
 .header-wrap {
   width: 100%;
   // position: fixed;
   top: 0;
-  z-index: 100;
+  z-index: 10;
   background: $white;
   // margin: 2% 0 0 4%;
   // border-bottom: 1px solid $grey-lighter;
@@ -22,6 +22,7 @@
   align-items: stretch;
   height: 60px;
   border-bottom: 1px solid $grey-lighter;
+  // padding-bottom: 35px;
 
   .header__logo-wrap {
     flex: 1;
@@ -32,7 +33,7 @@
   .header__navigation {
     flex: 2;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
   }
 }
