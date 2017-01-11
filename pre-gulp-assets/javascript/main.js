@@ -4,6 +4,21 @@ jQuery(document).ready(function($) {
   $('.sidebar').fixedsticky();
   $('#breadcrumbs').fixedsticky();
 
+  // var secondVisit = sessionStorage.getItem('secondVisit');
+  // if (secondVisit == null) {
+  //     sessionStorage.setItem('secondVisit', 1);
+  //     $('.landing').show();
+  // } else {
+  //   $('.landing').hide();
+  // }
+
+
+  $('.owl-carousel').owlCarousel({
+    number: 1,
+    dots: true
+  })
+
+
 //   $('.countertops').hover(function() {
 //     $('.breadcrumbs-wrap').toggle();
 // });
@@ -35,9 +50,9 @@ $(function() {
   });
 });
 
-// grab an element
-var myElement = document.querySelector(".header-wrap");
-// construct an instance of Headroom, passing the element
-var headroom  = new Headroom(myElement);
-// initialise
-headroom.init();
+// // grab an element
+// var myElement = document.querySelector(".header");
+// // construct an instance of Headroom, passing the element
+// var headroom  = new Headroom(myElement);
+// // initialise
+// headroom.init();

@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Bar Tops
-category: countertops
+category: 
 materials:
  - granite
  - marble

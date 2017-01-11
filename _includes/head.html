@@ -2,15 +2,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta name="robots" content="noindex">
   <title>Central Florida Marble | {% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
 
   <!-- CSS -->
   <!-- inject:css -->
   <link rel="stylesheet" href="{{ site.url }}/assets/stylesheets/style.css">
   <!-- endinject -->
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <!-- <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> -->
+
+  <link href="{{ site.url }}/lity.css" rel="stylesheet">
 
   <!-- Icons -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/images/touch/apple-touch-icon-144-precomposed.png">

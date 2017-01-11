@@ -11,10 +11,10 @@
 // Body
 
 body {
-  background-color: $white;
+  // background-color: $white;
   // background: $grey-lighter;
   color: $black;
-  // @include texture(180deg, $white, $white, 54, 1);
+  @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
 }
 
 
@@ -45,4 +45,9 @@ body {
   @include with-layout($sidebar) {
       margin-left: span(1 wide static);
     }
+}
+
+.main {
+  background: $white;
+  padding: 1px 0;
 }

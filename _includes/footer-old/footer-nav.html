@@ -1,15 +1,11 @@
 <div class="column is-half content">
-    <p>
-        General
-    </p>
+    <p> General</p>
     <ul>
         <li><a href="{{ site.url }}/about">About</a></li>
         <li><a>Frequently Asked Questions</a></li>
         <li><a href="{{ site.url }}/terms">Terms</a></li>
     </ul>
-    <p>
-        Surrounds
-    </p>
+    <p>Surrounds</p>
     <ul>
         {% assign surrounds = site.products | where: "category", "surrounds" %} {% for surround in surrounds %}
         <li><a href="{{ surround.url }}">{{ surround.title }}</a></li>
@@ -17,9 +13,7 @@
     </ul>
 </div>
 <div class="column is-half content">
-    <p>
-        Countertops
-    </p>
+    <p>Countertops</p>
     <ul>
         {% assign countertops = site.products | where: "category", "countertops" %} {% for countertop in countertops %}
         <li><a href="{{ countertop.url }}">{{ countertop.title }}</a></li>

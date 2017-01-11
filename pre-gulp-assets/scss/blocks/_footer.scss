@@ -1,3 +1,32 @@
+.footer {
+  margin-bottom: 2em;
+  @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
+}
+
 .address {
+  @include span(5 of 16);
+}
+
+.google-map {
+  margin-top: 1.5em;
+}
+
+.footer__nav {
+    @include span(11 of 16 last);
+}
+
+.footer__nav__column {
   @include span(4 of 16);
+}
+
+.footer__nav__column-2 {
+  @include span(4 of 16);
+}
+
+.footer__nav__column--last {
+  @include span(2.5 of 12 last);
+}
+
+.household-heading {
+  margin-top: 2.8em;
 }
