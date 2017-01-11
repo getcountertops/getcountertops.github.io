@@ -905,7 +905,16 @@ b, .bold {
     display: inline; }
 
 .film-link {
-  margin: 2em 0 0 5.4em; }
+  background: #4a4a4a;
+  color: #fffff8;
+  margin: 3em 0 0 13.5em;
+  font-size: 1em;
+  height: 2.9375rem;
+  padding: 0 12px;
+  width: inherit;
+  border-bottom: 4px solid #361f40; }
+  .film-link i {
+    padding-left: 15px; }
 
 .texture .texture-normal {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }

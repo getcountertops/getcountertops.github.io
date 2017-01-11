@@ -60,9 +60,19 @@
 }
 
 .film-link {
-   margin: 2em 0 0 5.4em;
-}
+    background: $grey-dark;
+    color: $white;
+    margin: 3em 0 0 13.5em;
+    font-size: 1em;
+    height: rem(47);
+    padding: 0 12px;
+    width: inherit;
+    border-bottom: 4px solid shade($primary, 60%);
 
+    i {
+      padding-left: 15px;
+    }
+}
 
 
 
