@@ -44,7 +44,7 @@
 .dropdown {
   position: absolute;
   top: 2.9em;
-  width: 100%;
+  width: 645px;
   display: none;
   z-index: 5;
   background: $white;
@@ -63,9 +63,9 @@
 .dropdown-surrounds {
   position: absolute;
   top: 2.9em;
-  width: 100%;
+  width: 645px;
   display: none;
-  z-index: 5;
+  z-index: 20;
   background: $white;
 
   .nav {
@@ -100,7 +100,7 @@
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
   background-repeat: repeat;
   height: 61px;
-    left: 20.9em;
+    left: 49.4em;
     position: absolute;
     top: 0;
     width: 121px;

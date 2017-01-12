@@ -1,7 +1,7 @@
 ---
-layout: product-page
+layout: default
 title: Vanity Tops
-permalink: /products/cultured-marble-vanity-tops/
+permalink: /products/vanity-tops/
 description:
 category: cultured marble
 materials:

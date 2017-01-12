@@ -9,6 +9,19 @@ jQuery(document).ready(function ($) {
   $('.sidebar').fixedsticky();
   $('#breadcrumbs').fixedsticky();
 
+  $(function () {
+    var pathArray = window.location.pathname.split('/');
+    var path1 = pathArray[0];
+    var path2 = pathArray[1];
+    var path3 = pathArray[2];
+    if (location.pathname.split("/")[1] !== "") {
+      $('.nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('is-active');
+    }
+    if (location.pathname.split("/")[1] == "services") {
+      $('#nav-menu a[href="#services"]').addClass('is-active');
+    }
+  });
+
   // var secondVisit = sessionStorage.getItem('secondVisit');
   // if (secondVisit == null) {
   //     sessionStorage.setItem('secondVisit', 1);

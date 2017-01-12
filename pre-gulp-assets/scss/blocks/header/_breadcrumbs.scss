@@ -19,14 +19,14 @@
   // border-bottom: 1px solid $grey-lighter;
 
   .header__breadcrumb-space {
-    flex: 1;
+    flex: 1 0 22.67%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
 
   .header__breadcrumbs-wrap {
-    flex: 1;
+    flex: 2;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -38,7 +38,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  left: 12.9em;
+  // left: 12.9em;
+  left: 5.34em;
   position: relative;
 }
 

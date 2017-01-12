@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Window Sills
 category: window-sills, cultured marble
 main-menu: true

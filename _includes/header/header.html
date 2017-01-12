@@ -2,12 +2,12 @@
 <header role="header" class="header-wrap fixedsticky">
   <h2 class="visuallyhidden">Header</h2>
   <section role="section" class="header">
-    {% include header/main-navigation.html %}
-    <div class="header__logo-wrap">
-      <!-- <img src="{{ site.url }}/assets/images/logo-mark-small.png"> -->
-      <p class="header__logo-wrap__logo"><a href="{{ site.url }}">{{ site.title }}</a></p>
-    </div>
 
+    <div class="header__logo-wrap">
+      <p class="header__logo-wrap__logo"><a href="{{ site.url }}">{{ site.title }}</a></p>
+      <!-- <img class="logomark" src="{{ site.url }}/assets/images/logo-mark-small.png"> -->
+    </div>
+  {% include header/main-navigation.html %}
 
   </section>
 </header>
