@@ -823,6 +823,10 @@ b, .bold {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 700; }
 
+.is-active {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #753b86; }
+
 .nav ul {
   position: relative;
   top: 45%;
@@ -894,7 +898,8 @@ b, .bold {
   width: 100%;
   position: fixed;
   top: 2.9em;
-  background: #fffff8; }
+  background: #fffff8;
+  z-index: 20; }
 
 .breadcrumbs {
   max-width: 100%;
@@ -935,7 +940,7 @@ b, .bold {
 .header-wrap {
   width: 100%;
   top: 0;
-  z-index: 10;
+  z-index: 30;
   background: #fffff8; }
 
 .header {

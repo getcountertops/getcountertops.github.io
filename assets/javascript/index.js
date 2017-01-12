@@ -11,14 +11,25 @@ jQuery(document).ready(function ($) {
 
   $(function () {
     var pathArray = window.location.pathname.split('/');
-    var path1 = pathArray[0];
-    var path2 = pathArray[1];
-    var path3 = pathArray[2];
-    if (location.pathname.split("/")[1] !== "") {
-      $('.nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('is-active');
-    }
-    if (location.pathname.split("/")[1] == "services") {
-      $('#nav-menu a[href="#services"]').addClass('is-active');
+    // var path1 = pathArray[0];
+    var path2 = pathArray[1]; //products
+    var path3 = pathArray[2]; //product name
+    var path4 = pathArray[3]; //product material or type
+
+    var test = 'a[href^="http://localhost:3000/products/' + location.pathname.split("/")[2] + '/' + '"]';
+
+    if (location.pathname.split("/")[3] !== "") {
+      $('a[href^="http://localhost:3000/products/' + location.pathname.split("/")[2] + '/' + location.pathname.split("/")[3] + '/' + '"]').addClass('is-active');
+
+      var product = location.pathname.split("/")[2];
+
+      product = product.toLowerCase().replace(/\b[a-z]/g, function (letter) {
+        return letter.toUpperCase();
+      });
+
+      $('a[data=' + product + ']').addClass('is-active');
+    } else if (location.pathname.split("/")[2] !== "") {
+      $('a[href^="http://localhost:3000/products/' + location.pathname.split("/")[2] + '"]').addClass('is-active');
     }
   });
 

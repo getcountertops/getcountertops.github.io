@@ -19,7 +19,6 @@ Tired of your old kitchen? Imagine something new. Dream big. Cook and dine in a 
 
 She was still shaping her vision, but knew her firm budget. With fair, expert advise and personal service, we transformed her home in an unexpected way. Let me explain.
 
-{% include supplier-list.html %}
 </div>
 
 <div class="content__image fixedsticky">

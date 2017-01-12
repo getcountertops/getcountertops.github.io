@@ -17,6 +17,11 @@
   }
 }
 
+.is-active {
+  padding-bottom: 3px;
+  border-bottom: 2px solid $primary;
+}
+
 .nav ul {
   position: relative;
   top: 45%;

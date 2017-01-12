@@ -9,7 +9,7 @@ number: 8
 
 <div class="content">
 <div class="content__text">
-<p class="is-first-heading h2">Solid Artistry and Service</p>
+<p class="is-first-heading h2">Window Sills</p>
 <p class="h3">With 30 years of experience, we're ready to turn your vision into a lasting reality.</p>
 
 Tired of your old kitchen? Imagine something new. Dream big. Cook and dine in a space that inspires you. Does it have refined, natural stone or engineered beauty? Is it subtle and sophisticated, or vibrant with lots of personality?
