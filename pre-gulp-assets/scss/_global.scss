@@ -12,9 +12,37 @@
 
 body {
   // background-color: $white;
-  // background: $grey-lighter;
+  background:  #fbeee6;
   color: $black;
-  @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
+  // @include texture(180deg,  #fbeee6,  #fbeee6, 57, 1);
+  // background-image: url('/assets/images/textures/redox-02.png');
+
+  //background-image: url('/assets/images/textures/concrete-wall-3.png');
+  // background-image: url('/assets/images/textures/redox-01.png');
+    //background-image: url('/assets/images/textures/scribble-light.png');
+
+  //background-image: url('/assets/images/textures/concrete_seamless.png');
+  // background-image: url('/assets/images/textures/old_wall.png');
+  // background-image: url('/assets/images/textures/wall4.png');
+  // background-image: url('/assets/images/textures/old_moon.png');
+  background-image: url('/assets/images/textures/noisy.png');
+  //ackground-image: url('/assets/images/textures/marble.jpg');
+  // background-image: url('/assets/images/textures/texturetastic_gray.png');
+  //background-image: url('/assets/images/textures/concrete_wall_2.png');
+  background-repeat: repeat;
+
+}
+
+body::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 

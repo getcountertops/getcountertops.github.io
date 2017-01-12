@@ -358,7 +358,7 @@ a {
   font-weight: 700; }
 
 .mini-cta {
-  border-top: 1px solid #884ea0; }
+  border-top: 1px solid #753b86; }
 
 button, input[type="button"], input[type="reset"], input[type="submit"],
 button {
@@ -368,7 +368,7 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #884ea0;
+  background-color: #753b86;
   border-radius: 3px;
   border: none;
   color: #fff;
@@ -385,7 +385,7 @@ button {
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
-    background-color: #5c356d;
+    background-color: #472451;
     color: #fff; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
   button:disabled {
@@ -444,8 +444,8 @@ textarea {
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border-color: #884ea0;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(121, 70, 143, 0.7);
+    border-color: #753b86;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(102, 51, 116, 0.7);
     outline: none; }
 
 textarea {
@@ -557,11 +557,11 @@ h6, .h6 {
   font-size: 1em; }
 
 a {
-  color: #884ea0;
+  color: #753b86;
   text-decoration: none;
   transition: color 0.1s linear; }
   a:active, a:focus, a:hover {
-    color: #5c356d; }
+    color: #472451; }
   a:active, a:focus {
     outline: none; }
 
@@ -1010,7 +1010,7 @@ b, .bold {
   .lead-magnet__form .lead-magnet__form__button {
     display: inline;
     background-color: #fffff8;
-    color: #884ea0;
+    color: #753b86;
     margin-left: .5em;
     font-size: 1em;
     height: 2.9375rem;
@@ -1023,7 +1023,7 @@ b, .bold {
     display: inline; }
 
 .lead-magnet {
-  background: #884ea0; }
+  background: #753b86; }
 
 .lead-magnet__text {
   padding: 7px 0 0 15px;
@@ -1129,12 +1129,11 @@ b, .bold {
 
 .landing {
   height: 100vh;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/concrete_wall_2.png"), linear-gradient(180deg, #dbdbdb, #dbdbdb), center no-repeat #dbdbdb scroll;
   display: flex; }
 
 .landing__text-wrap {
   display: flex;
-  margin: 3em 0 0 5em;
+  margin: 3em 0 0 4em;
   width: 35em; }
 
 .landing__video-wrap {
@@ -1142,35 +1141,24 @@ b, .bold {
   display: flex; }
 
 .landing__video {
-  margin: 3em;
-  width: 27em; }
-
-.landing__video {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0; }
+  margin: 6.5em 0 0 3em; }
 
 .landing__video iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
+  width: 578px;
+  height: 357px; }
 
 .landing__form {
   flex: 1; }
   .landing__form .landing__form__button {
     display: inline;
-    background-color: #884ea0;
+    background-color: #753b86;
     color: #fffff8;
     margin-left: .5em;
     font-size: 1em;
     height: 2.9375rem;
     padding: 0 12px;
     width: inherit;
-    border-bottom: 4px solid #5f3770; }
+    border-bottom: 4px solid #52295e; }
   .landing__form .landing__form__input {
     font-size: 1em;
     height: 2.25em;
@@ -1186,7 +1174,7 @@ b, .bold {
   height: 2.9375rem;
   padding: 0 12px;
   width: inherit;
-  border-bottom: 4px solid #361f40; }
+  border-bottom: 4px solid #2f1836; }
   .film-link i {
     padding-left: 15px; }
 
@@ -1275,13 +1263,13 @@ figure.snip1167 blockquote {
   border-radius: 8px;
   position: relative;
   background-color: #fafafa;
-  border: 1px solid #884ea0;
+  border: 1px solid #753b86;
   padding: 65px 50px 30px 50px;
   font-size: 1em;
   font-weight: 500;
   margin: -50px 0 0;
   line-height: 1.6em;
-  box-shadow: 10px 10px 9px -7px #5f3770; }
+  box-shadow: 10px 10px 9px -7px #52295e; }
 
 figure.snip1167 blockquote:before,
 figure.snip1167 blockquote:after {
@@ -1323,20 +1311,33 @@ body {
   background-color: #212121; }
 
 ::-moz-selection {
-  background: #FFF8DC;
+  background: #FFF5EE;
   /* WebKit/Blink Browsers */ }
 
 ::selection {
-  background: #FFF8DC;
+  background: #FFF5EE;
   /* WebKit/Blink Browsers */ }
 
 ::-moz-selection {
-  background: #FFF8DC;
+  background: #FFF5EE;
   /* Gecko Browsers */ }
 
 body {
+  background: #fbeee6;
   color: #111111;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/concrete_wall_2.png"), linear-gradient(180deg, #dbdbdb, #dbdbdb), center no-repeat #dbdbdb scroll; }
+  background-image: url("/assets/images/textures/noisy.png");
+  background-repeat: repeat; }
+
+body::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
 
 .home-wrap {
   max-width: 85%;

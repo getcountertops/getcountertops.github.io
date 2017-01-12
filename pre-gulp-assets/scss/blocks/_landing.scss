@@ -1,6 +1,6 @@
 .landing {
   height:100vh;
-  @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
+  // @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
 
   display: flex;
 
@@ -14,7 +14,7 @@
 .landing__text-wrap {
   // flex: 2 0 20%;
   display: flex;
-  margin: 3em 0 0 5em;
+  margin: 3em 0 0 4em;
     width: 35em;
 }
 
@@ -28,23 +28,19 @@
 // margin: 3em 0 0 4em;
 }
 
-.landing__video {
-  margin: 3em;
-    width: 27em;
-}
-
 .landing__video  {
-	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
-	padding-top: 25px;
-	height: 0;
+	// position: relative;
+	// padding-bottom: 56.25%; /* 16:9 */
+	// padding-top: 25px;
+	// height: 0;
+  margin: 6.5em 0 0 3em;
 }
 .landing__video  iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+	// position: absolute;
+	// top: 0;
+	// left: 0;
+	width: 578px;
+  height: 357px;
 }
 
 .landing__form {
