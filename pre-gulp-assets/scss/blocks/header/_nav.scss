@@ -52,7 +52,7 @@
   width: 645px;
   display: none;
   z-index: 5;
-  background: $stone;
+  // background: $stone;
 
   .nav {
     position: relative;
@@ -68,22 +68,45 @@
 .dropdown-surrounds {
   position: absolute;
   top: 2.9em;
-  width: 365px;
+  width: 635px;
   display: none;
   z-index: 20;
-  background: $stone;
+  //background: $stone;
 
   .nav {
     left: 271px;
     position: relative;
     height: 38px;
     padding: 4px 0;
-    background: $stone;
+    // background: $stone;
   }
 
   .nav li a {
     font-weight: 600;
   }
+}
+
+.dropdown-surrounds::before, .dropdown::before {
+    content: "";
+  background-color: $stone;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.dropdown-surrounds::after, .dropdown::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 .nav i {

@@ -38,7 +38,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: $stone;
+    // background: $stone;
   }
 }
 
@@ -50,11 +50,34 @@
   // left: 12.9em;
   //left: 5.34em;
   position: relative;
-  background: $stone;
+  // background: $stone;
   nav {
     left: 11.9em;
     position: relative;
   }
+}
+
+.header__breadcrumbs-wrap--surrounds::before, .header__breadcrumbs-wrap::before {
+    content: "";
+  background-color: $stone;
+  top: 0;
+  left: 755px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.header__breadcrumbs-wrap--surrounds::after, .header__breadcrumbs-wrap::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 755px
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 

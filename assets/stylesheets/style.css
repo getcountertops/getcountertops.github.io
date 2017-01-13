@@ -846,8 +846,7 @@ b, .bold {
   top: 2.9em;
   width: 645px;
   display: none;
-  z-index: 5;
-  background: #fbeee6; }
+  z-index: 5; }
   .dropdown .nav {
     position: relative;
     height: 38px;
@@ -858,18 +857,37 @@ b, .bold {
 .dropdown-surrounds {
   position: absolute;
   top: 2.9em;
-  width: 365px;
+  width: 635px;
   display: none;
-  z-index: 20;
-  background: #fbeee6; }
+  z-index: 20; }
   .dropdown-surrounds .nav {
     left: 271px;
     position: relative;
     height: 38px;
-    padding: 4px 0;
-    background: #fbeee6; }
+    padding: 4px 0; }
   .dropdown-surrounds .nav li a {
     font-weight: 600; }
+
+.dropdown-surrounds::before, .dropdown::before {
+  content: "";
+  background-color: #fbeee6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; }
+
+.dropdown-surrounds::after, .dropdown::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
 
 .nav i {
   font-size: .7em;
@@ -928,19 +946,38 @@ b, .bold {
     flex: 2;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    background: #fbeee6; }
+    align-items: center; }
 
 .header__breadcrumbs-wrap--surrounds {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  position: relative;
-  background: #fbeee6; }
+  position: relative; }
   .header__breadcrumbs-wrap--surrounds nav {
     left: 11.9em;
     position: relative; }
+
+.header__breadcrumbs-wrap--surrounds::before, .header__breadcrumbs-wrap::before {
+  content: "";
+  background-color: #fbeee6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; }
+
+.header__breadcrumbs-wrap--surrounds::after, .header__breadcrumbs-wrap::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
 
 .header__breadcrumbs-wrap .nav li a, .header__breadcrumbs-wrap--surrounds .nav li a {
   font-weight: 600; }
@@ -949,6 +986,27 @@ b, .bold {
   width: 100%;
   top: 0;
   z-index: 30; }
+
+.header-wrap::before {
+  content: "";
+  background-color: #fbeee6;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; }
+
+.header-wrap::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
 
 .header {
   max-width: 100%;
@@ -969,14 +1027,12 @@ b, .bold {
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
-    background: #fbeee6; }
+    align-items: center; }
   .header .header__navigation {
     flex: 1 1 5%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    background: #fbeee6; }
+    align-items: center; }
 
 .logomark {
   height: 50px;
@@ -1085,6 +1141,14 @@ b, .bold {
   margin-right: .7em;
   font-size: 1.4em;
   color: #363636; }
+
+.main-2 {
+  background: #477dca none repeat scroll 0 0;
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 100vh;
+  width: 100%; }
 
 .page {
   max-width: 85%;

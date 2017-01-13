@@ -13,6 +13,29 @@
   // border-bottom: 1px solid $grey-lighter;
 }
 
+.header-wrap::before {
+    content: "";
+  background-color: $stone;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.header-wrap::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
 // .header-wrap::before {
 //     display: block;
 //     width: 100%;
@@ -41,7 +64,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background: $stone;
+    // background: $stone;
     // background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
     // background-repeat: repeat;
   }
@@ -51,7 +74,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background: $stone;
+    // background: $stone;
   }
 }
 
