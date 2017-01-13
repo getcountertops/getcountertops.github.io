@@ -1035,10 +1035,11 @@ b, .bold {
     align-items: center; }
 
 .logomark {
-  height: 66px;
-  left: 18px;
+  height: 53px;
+  left: 46px;
   margin-right: 7px;
-  position: absolute; }
+  position: absolute;
+  top: 6px; }
 
 .header__logo-wrap__logo a {
   font-family: "Roboto Condensed", sans-serif;
@@ -1361,8 +1362,7 @@ figure.snip1167 blockquote {
   font-size: 1em;
   font-weight: 500;
   margin: -50px 0 0;
-  line-height: 1.6em;
-  box-shadow: 10px 10px 9px -7px #52295e; }
+  line-height: 1.6em; }
 
 figure.snip1167 blockquote:before,
 figure.snip1167 blockquote:after {
@@ -1400,15 +1400,15 @@ figure.snip1167 .author h5 span {
   display: block; }
 
 ::-moz-selection {
-  background: #FFF5EE;
+  background: #b094b8;
   /* WebKit/Blink Browsers */ }
 
 ::selection {
-  background: #FFF5EE;
+  background: #b094b8;
   /* WebKit/Blink Browsers */ }
 
 ::-moz-selection {
-  background: #FFF5EE;
+  background: #b094b8;
   /* Gecko Browsers */ }
 
 body {
