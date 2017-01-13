@@ -962,7 +962,7 @@ b, .bold {
   content: "";
   background-color: #fbeee6;
   top: 0;
-  left: 0;
+  left: 755px;
   bottom: 0;
   right: 0;
   position: absolute;
@@ -973,7 +973,7 @@ b, .bold {
   background: url("/assets/images/textures/marble.jpg");
   opacity: 0.2;
   top: 0;
-  left: 0;
+  left: 755px;
   bottom: 0;
   right: 0;
   position: absolute;
@@ -1035,8 +1035,10 @@ b, .bold {
     align-items: center; }
 
 .logomark {
-  height: 50px;
-  margin-right: 7px; }
+  height: 66px;
+  left: 18px;
+  margin-right: 7px;
+  position: absolute; }
 
 .header__logo-wrap__logo a {
   font-family: "Roboto Condensed", sans-serif;
@@ -1136,6 +1138,10 @@ b, .bold {
 
 .our-story-slider-nav {
   text-align: center; }
+
+.image-shift {
+  position: relative;
+  top: -260px; }
 
 .slider-arrow {
   margin-right: .7em;
@@ -1271,6 +1277,10 @@ b, .bold {
 
 .logomark-2 {
   height: 75px; }
+
+.logomark-main {
+  height: 90px;
+  margin-top: 1em; }
 
 .texture .texture-normal {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }
