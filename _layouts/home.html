@@ -4,7 +4,7 @@
   {% include head.html %}
 
 <body>
-  {% include landing.html %}
+  {% include home/landing.html %}
   {% include header/header.html %}
   <main class="main">
     <div class="wrap">
@@ -20,17 +20,13 @@
   </main>
   <div class="wrap">
     <hr>
-    {% include footer-sidebar.html %}
+    {% include footer/footer-sidebar.html %}
     {% include footer/footer.html %}
   </div>
 
+{% include javascript-list.html %}
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="{{ site.url }}/fixedsticky.js"></script>
-<script src="{{ site.url }}/headroom.js"></script>
-<script src="{{ site.url }}/slick.min.js"></script>
-<script src="{{ site.url }}/lity.min.js"></script>
-  <script type="text/javascript" src="{{ site.url }}/assets/javascript/index.js"></script>
+
 
   <!-- JS -->
   <!-- inject:js -->
