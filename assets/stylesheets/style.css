@@ -979,8 +979,8 @@ b, .bold {
     background: #fbeee6; }
 
 .logomark {
-  height: 55px;
-  margin-left: 18px; }
+  height: 50px;
+  margin-right: 7px; }
 
 .header__logo-wrap__logo a {
   font-family: "Roboto Condensed", sans-serif;
@@ -1204,6 +1204,9 @@ b, .bold {
 .landing-logo {
   position: relative;
   top: 21em; }
+
+.logomark-2 {
+  height: 75px; }
 
 .texture .texture-normal {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }
