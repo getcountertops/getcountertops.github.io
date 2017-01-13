@@ -18,6 +18,13 @@
   @include border-right-radius(3px);
   @include border-bottom-radius(3px);
   @include border-left-radius(3px);
+  //border: 1px solid $grey-darker;
+  //box-shadow:inset 2px 5px 20px #555;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .our-story-slider-nav {

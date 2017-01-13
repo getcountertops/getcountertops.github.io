@@ -19,13 +19,13 @@ Granite one of the hardest natural stones on earth. It is an igneous rock compos
 
 Granite is heavy and highly durable; it is hard to scratch or chip and has the highest tolerance for direct heat: up to 392&deg;F / 200&deg;C.
 
-The natural stone does require special maintenance. It is porous and needs to be sealed before use and resealed at least every year to keep out water damage or staining.
+The natural stone does require special maintenance. It is porous and needs to be sealed before use and resealed at least every year to prevent water damage or staining.
 
 **Granite is perfect for you if you want a durable countertop with unique, natural beauty, and you do not mind occasional maintenance duties.**
 
 No two stone slabs are alike. To avoid any surprises, we suggest making an appointment to view the entire slab at the stone yard to make the perfect selection.
 
-<a href="{{ site.url }}/products/window-sills">Window sills</a> and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with granite.
+<a href="{{ site.url }}/products/window-sills/">Window sills</a> and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with granite.
 
 </div>
 

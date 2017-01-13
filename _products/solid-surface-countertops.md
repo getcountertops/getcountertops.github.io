@@ -11,8 +11,8 @@ number: 4
 
 <div class="content">
 <div class="content__text">
-<p class="is-first-heading h2">Solid Artistry</p>
-<p class="h3">Man-made perfection.</p>
+<p class="is-first-heading h2">Effortless Care, Seamless, and Affordable</p>
+<p class="h3">Solid surface is man-made perfection.</p>
 
 A solid surface countertop is an acrylic-based product composed of mineral dust, resins and pigments. It is manufactured in a variety of different pattern and color combinations for a uniform, soft-matte and seamless appearance.
 

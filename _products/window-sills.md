@@ -10,11 +10,16 @@ number: 8
 <div class="content">
 <div class="content__text">
 <p class="is-first-heading h2">Window Sills</p>
-<p class="h3">With 30 years of experience, we're ready to turn your vision into a lasting reality.</p>
+<p class="h3"></p>
 
-Tired of your old kitchen? Imagine something new. Dream big. Cook and dine in a space that inspires you. Does it have refined, natural stone or engineered beauty? Is it subtle and sophisticated, or vibrant with lots of personality?
+Cultured marble is much like traditional solid surfaces, but it resembles natural marble stone and comes with a high-glossy finish.
 
-She was still shaping her vision, but knew her firm budget. With fair, expert advise and personal service, we transformed her home in an unexpected way. Let me explain.
+Cultured marble is easy to clean and stain resistant. It is non-porous, so it won't draw in moisture or bacteria and does not require sealing.
+
+Cultured marble can develop scratches and scorching, but can also be restored with polishing and sanding, which is not possible with damaged natural or engineered stone.
+
+<a href="{{ site.url }}/products/vanity-tops/">Vanity tops</a>, <a href="{{ site.url }}/products/thresholds/">thresholds</a>, and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with cultured marble. Cultured marble is not available for kitchen countertops.
+
 </div>
 
 <div class="content__image fixedsticky">

@@ -2,7 +2,7 @@
   width: 100%;
   position: fixed;
   top: 2.9em;
-  background: $white;
+  //background: $white;
   z-index: 20;
   // margin: 2% 0 0 4%;
   // border-bottom: 1px solid $grey-lighter;
@@ -26,11 +26,19 @@
     align-items: center;
   }
 
+  .header__breadcrumb-space--surrounds {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .header__breadcrumbs-wrap {
     flex: 2;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background: $stone;
   }
 }
 
@@ -40,8 +48,13 @@
   justify-content: flex-start;
   align-items: center;
   // left: 12.9em;
-  left: 5.34em;
+  //left: 5.34em;
   position: relative;
+  background: $stone;
+  nav {
+    left: 11.9em;
+    position: relative;
+  }
 }
 
 

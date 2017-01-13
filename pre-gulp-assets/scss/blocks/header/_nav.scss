@@ -18,14 +18,14 @@
 }
 
 .is-active {
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   border-bottom: 2px solid $primary;
 }
 
 .nav ul {
   position: relative;
   top: 45%;
-  background: $white;
+  //background: $white;
 }
 
 .nav:first-child {
@@ -52,7 +52,7 @@
   width: 645px;
   display: none;
   z-index: 5;
-  background: $white;
+  background: $stone;
 
   .nav {
     position: relative;
@@ -68,16 +68,17 @@
 .dropdown-surrounds {
   position: absolute;
   top: 2.9em;
-  width: 645px;
+  width: 365px;
   display: none;
   z-index: 20;
-  background: $white;
+  background: $stone;
 
   .nav {
     left: 271px;
     position: relative;
     height: 38px;
     padding: 4px 0;
+    background: $stone;
   }
 
   .nav li a {

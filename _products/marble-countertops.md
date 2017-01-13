@@ -13,13 +13,13 @@ number: 2
 <div class="content">
 <div class="content__text">
 <p class="is-first-heading h2">Timeless Luxury</p>
-<p class="h3">The ageless beauty, marble is the natural stone that never goes out of style.</p>
+<p class="h3">Marble is the natural stone and ageless beauty that never goes out of style.</p>
 
 Marble is a metamorphic rock (a rock that has changed form under pressure/heat) containing crystallized limestone. Each marble countertop is one-of-a-kind, with beautiful, naturally-occurring patterns and colors. For this reason, seams will be visible, especially if the stone has veins or directional movement.
 
 Marble is a great choice for bakers because the surface retains cool temperatures.
 
-The natural stone does require special maintenance. Compared with granite, marble is more susceptible to stains and can be more easily be chipped. It is porous and needs to be sealed before use and resealed at least every year to keep out water damage or staining.
+The natural stone does require special maintenance. Compared with granite, marble is more susceptible to stains and can be more easily be chipped. It is porous and needs to be sealed before use and resealed at least every year to prevent water damage or staining.
 
 **Marble is the perfect for you if want a naturally stone countertop that maintains cool temperatures and you do not mind maintenance duties and special care.**
 

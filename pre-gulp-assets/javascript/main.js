@@ -47,8 +47,8 @@ jQuery(document).ready(function($) {
     cssEase: 'linear',
     speed: 1000,
     appendArrows: '.our-story-slider-nav',
-    nextArrow: '<a class="slider-arrow"><i class="fa fa-caret-right"></i></a>',
-    prevArrow: '<a class="slider-arrow"><i class="fa fa-caret-left"></i></a>',
+    nextArrow: '<a class="slider-arrow"><i class="fa fa-angle-right"></i></a>',
+    prevArrow: '<a class="slider-arrow"><i class="fa fa-angle-left"></i></a>',
   });
 });
 

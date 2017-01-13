@@ -11,8 +11,8 @@ number: 5
 
 <div class="content">
 <div class="content__text">
-<p class="is-first-heading h2">Unmatched Durability</p>
-<p class="h3">The engineered beauty that gives you the best of both worlds.</p>
+<p class="is-first-heading h2">Unmatched Versatility</p>
+<p class="h3">Quartz is the engineered beauty that gives you the best of both worlds.</p>
 
 A quartz countertop is an engineered stone composed of 93% natural stone quartz and 7% resin. You get a hard, rock-like surface with the flexibility of man-made materials.
 
@@ -22,7 +22,7 @@ Quartz is very durable; it is hard to scratch or chip and has the third highest 
 
 **Quartz is perfect for you if you want a durable countertop that can either mimic natural stone and/or achieve a uniform appearance to hide seams and requires minimal maintenance.**
 
-<a href="{{ site.url }}/products/window-sills">Window sills</a>, <a href="{{ site.url }}/products/thresholds">thresholds</a>, and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with quartz.
+<a href="{{ site.url }}/products/window-sills/">Window sills</a>, <a href="{{ site.url }}/products/thresholds/">thresholds</a>, and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with quartz.
 
 We are a certified fabricator of Cambria and Dupont Zodiac quartz surfaces and manufacture many other brand-name quartz products.
 

@@ -1,6 +1,6 @@
 .footer {
   margin-bottom: 2em;
-  @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
+  // @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
 }
 
 .address {
@@ -28,5 +28,5 @@
 }
 
 .household-heading {
-  margin-top: 2.8em;
+  margin-top: 4.2em;
 }

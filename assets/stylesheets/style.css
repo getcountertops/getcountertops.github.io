@@ -824,13 +824,12 @@ b, .bold {
     font-weight: 700; }
 
 .is-active {
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   border-bottom: 2px solid #753b86; }
 
 .nav ul {
   position: relative;
-  top: 45%;
-  background: #fffff8; }
+  top: 45%; }
 
 .nav:first-child {
   padding-left: 0; }
@@ -848,7 +847,7 @@ b, .bold {
   width: 645px;
   display: none;
   z-index: 5;
-  background: #fffff8; }
+  background: #fbeee6; }
   .dropdown .nav {
     position: relative;
     height: 38px;
@@ -859,15 +858,16 @@ b, .bold {
 .dropdown-surrounds {
   position: absolute;
   top: 2.9em;
-  width: 645px;
+  width: 365px;
   display: none;
   z-index: 20;
-  background: #fffff8; }
+  background: #fbeee6; }
   .dropdown-surrounds .nav {
     left: 271px;
     position: relative;
     height: 38px;
-    padding: 4px 0; }
+    padding: 4px 0;
+    background: #fbeee6; }
   .dropdown-surrounds .nav li a {
     font-weight: 600; }
 
@@ -898,7 +898,6 @@ b, .bold {
   width: 100%;
   position: fixed;
   top: 2.9em;
-  background: #fffff8;
   z-index: 20; }
 
 .breadcrumbs {
@@ -920,19 +919,28 @@ b, .bold {
     display: flex;
     justify-content: flex-start;
     align-items: center; }
+  .breadcrumbs .header__breadcrumb-space--surrounds {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
   .breadcrumbs .header__breadcrumbs-wrap {
     flex: 2;
     display: flex;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    background: #fbeee6; }
 
 .header__breadcrumbs-wrap--surrounds {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  left: 5.34em;
-  position: relative; }
+  position: relative;
+  background: #fbeee6; }
+  .header__breadcrumbs-wrap--surrounds nav {
+    left: 11.9em;
+    position: relative; }
 
 .header__breadcrumbs-wrap .nav li a, .header__breadcrumbs-wrap--surrounds .nav li a {
   font-weight: 600; }
@@ -940,8 +948,7 @@ b, .bold {
 .header-wrap {
   width: 100%;
   top: 0;
-  z-index: 30;
-  background: #fffff8; }
+  z-index: 30; }
 
 .header {
   max-width: 100%;
@@ -962,12 +969,14 @@ b, .bold {
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    background: #fbeee6; }
   .header .header__navigation {
-    flex: 2;
+    flex: 1 1 5%;
     display: flex;
     justify-content: flex-end;
-    align-items: center; }
+    align-items: center;
+    background: #fbeee6; }
 
 .logomark {
   height: 55px;
@@ -1065,6 +1074,9 @@ b, .bold {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px; }
+  .slider p {
+    margin: 0;
+    padding: 0; }
 
 .our-story-slider-nav {
   text-align: center; }
@@ -1200,8 +1212,7 @@ b, .bold {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }
 
 .footer {
-  margin-bottom: 2em;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/concrete_wall_2.png"), linear-gradient(180deg, #dbdbdb, #dbdbdb), center no-repeat #dbdbdb scroll; }
+  margin-bottom: 2em; }
 
 .address {
   width: 30.3797468354%;
@@ -1232,7 +1243,7 @@ b, .bold {
   margin-right: 0; }
 
 .household-heading {
-  margin-top: 2.8em; }
+  margin-top: 4.2em; }
 
 .testimonials {
   margin-top: 2em; }
@@ -1245,7 +1256,7 @@ figure.snip1167 {
   min-width: 220px;
   max-width: 589px;
   width: 100%;
-  color: #333;
+  color: #111111;
   text-align: left;
   box-shadow: none; }
 
@@ -1267,7 +1278,7 @@ figure.snip1167 blockquote {
   display: block;
   border-radius: 8px;
   position: relative;
-  background-color: #fafafa;
+  background: #fffff8;
   border: 1px solid #753b86;
   padding: 65px 50px 30px 50px;
   font-size: 1em;
@@ -1311,10 +1322,6 @@ figure.snip1167 .author h5 span {
   text-transform: none;
   display: block; }
 
-/* Demo purposes only */
-body {
-  background-color: #212121; }
-
 ::-moz-selection {
   background: #FFF5EE;
   /* WebKit/Blink Browsers */ }
@@ -1330,7 +1337,6 @@ body {
 body {
   background: #fbeee6;
   color: #111111;
-  background-image: url("/assets/images/textures/noisy.png");
   background-repeat: repeat; }
 
 body::after {
@@ -1341,7 +1347,7 @@ body::after {
   left: 0;
   bottom: 0;
   right: 0;
-  position: absolute;
+  position: fixed;
   z-index: -1; }
 
 .home-wrap {
@@ -1375,7 +1381,6 @@ body::after {
     clear: both; }
 
 .main {
-  background: #fffff8;
   padding: 1px 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -10,19 +10,15 @@ materials:
 
 <div class="content__text">
 <p class="is-first-heading h2">Showers</p>
-<p class="h3">Granite is the most popular, natural beauty thats got everybody talking.</p>
+<p class="h3"></p>
 
-Granite one of the hardest natural stones on earth. It is an igneous rock composed chiefly of feldspar, and quartz. Each granite countertop is one-of-a-kind, with beautiful, naturally-occurring patterns and colors. For this reason, seams will be visible, especially if the stone has veins or directional movement. We offer custom mitered edges for some types of granite.
+Cultured marble is much like traditional solid surfaces, but it resembles natural marble stone and comes with a high-glossy finish.
 
-Granite is heavy and highly durable; it is hard to scratch or chip and has the highest tolerance for direct heat: up to 392&deg;F / 200&deg;C.
+Cultured marble is easy to clean and stain resistant. It is non-porous, so it won't draw in moisture or bacteria and does not require sealing.
 
-The natural stone does require special maintenance. It is porous and needs to be sealed before use and resealed at least every year to keep out water damage or staining.
+Cultured marble can develop scratches and scorching, but can also be restored with polishing and sanding, which is not possible with damaged natural or engineered stone.
 
-**Granite is perfect for you if you want a durable countertop with unique, natural beauty, and you do not mind occasional maintenance duties.**
-
-No two stone slabs are alike. To avoid any surprises, we suggest making an appointment to view the entire slab at the stone yard to make the perfect selection.
-
-<a href="{{ site.url }}/products/window-sills">Window sills</a> and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with granite.
+<a href="{{ site.url }}/products/window-sills">Window sills</a> and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with cultured marble. Cultured marble is not available for kitchen countertops.
 
 </div>
 
