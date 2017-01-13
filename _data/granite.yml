@@ -1,8 +1,0 @@
-- name: Brown
-  image: brown-granite.jpg
-  products:
-  - countertops
-- name: Gold
-  image: gold-granite.jpg
-  products:
-  - thresholds

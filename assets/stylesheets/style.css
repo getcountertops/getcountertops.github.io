@@ -1034,6 +1034,9 @@ b, .bold {
     justify-content: flex-end;
     align-items: center; }
 
+.logo-link:hover {
+  color: #753b86; }
+
 .logomark {
   height: 53px;
   left: 46px;
