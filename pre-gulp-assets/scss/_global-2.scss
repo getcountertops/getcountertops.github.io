@@ -1,0 +1,64 @@
+::selection {
+    background: $highlight;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: $highlight;
+    /* Gecko Browsers */
+}
+
+// Body
+
+body {
+  background:  $stone;
+  color: $black;
+  background-repeat: repeat;
+
+}
+
+body::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+// Wrap
+.home-wrap {
+  @include container($base-container-width);
+  margin-top: 3em;
+}
+
+.wrap {
+  @include container($base-container-width);
+  margin-top: 3em;
+
+ //  @include susy-media(phone) {
+ //    @include container($full-container-width);
+ //    margin: 0;
+ // }
+}
+
+.content {
+  @include container();
+  // padding: 0 20px;
+  @include with-layout($sidebar) {
+      margin-left: span(1 wide static);
+    }
+
+  // @include susy-media(phone) {
+  //   @include with-layout($sidebar) {
+  //       margin-left: 0;
+  //     }
+  //   }
+}
+
+.main {
+  // padding: 1px 0;
+}

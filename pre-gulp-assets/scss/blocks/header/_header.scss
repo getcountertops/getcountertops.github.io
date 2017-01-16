@@ -3,18 +3,14 @@
 
 // Header Layout
 .header-wrap {
-  width: 100%;
-  // position: fixed;
+  max-width: 100%;
   top: 0;
   z-index: 30;
-  // background: $stone;
-  // background-color: rgba(255, 255, 255, 0.5);
-  // margin: 2% 0 0 4%;
-  // border-bottom: 1px solid $grey-lighter;
+  //display: none;
 }
 
 .header-wrap::before {
-    content: "";
+  content: "";
   background-color: $stone;
   top: 0;
   left: 0;
@@ -36,19 +32,7 @@
   z-index: -1;
 }
 
-// .header-wrap::before {
-//     display: block;
-//     width: 100%;
-//     height: 100%;
-//     background: $white;
-//     background-size: cover;
-//     content: ' ';
-//     opacity: 1;
-// }
-
-//
 .header {
-  // @include container(76%);
   @include container($full-container-width);
   margin-left: 11.5%;
   margin-right: 7.5%;
@@ -57,24 +41,18 @@
   align-items: stretch;
   height: 60px;
   border-bottom: 1px solid $grey-lighter;
-  // padding-bottom: 35px;
 
   .header__logo-wrap {
     flex: 1;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    // background: $stone;
-    // background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=);
-    // background-repeat: repeat;
   }
   .header__navigation {
-    // flex: 2;
-    flex: 1 1 5%;
+    flex: 2 1 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    // background: $stone;
   }
 }
 
@@ -88,28 +66,14 @@
       margin-right: 7px;
       position: absolute;
       top: 6px;
-
-  // height: 66px;
-  //  left: 18px;
-  //  margin-right: 7px;
-  //  position: absolute;
-
-  // height: 50px;
-  // margin-right: 7px;
 }
 
-// // Header Styles
-// .header-wrap {
-//   background: $white;
-// }
-//
+//Header Styles
+
 .header__logo-wrap__logo a {
   font-family: $sans-serif-condensed;
   font-size: 1.3em;
   font-weight: 700;
   text-transform: uppercase;
   color: $grey-darker;
-  // left: 12px;
-  // position: absolute;
-  // top: 102px;
 }

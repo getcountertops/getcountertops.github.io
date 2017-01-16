@@ -1,15 +1,55 @@
 .content__text {
   @include span(7 of 16);
   margin-right: span(1 of 16);
+
+  @include susy-media(phone) {
+      @include span(full);
+  }
 }
 
 .content__image {
   @include span(8 of 16 last);
-  // margin-left: span(6 of 16);
-  // width: 44.5%;
-  // position: fixed;
   top: 120px;
+
+  @include susy-media(phone) {
+      @include span(full);
+      position: relative;
+  }
 }
+
+
+// .content__text {
+//   @include susy-media(max) {
+//     @include span(7 of 16);
+//     margin-right: span(1 of 16);
+//   }
+//
+//   // // @include susy-media(max) {  @include span(16 of 16 last); }
+//  //  @include susy-media(phone) {
+//  //    @include span(full);
+//  // }
+// }
+//
+// .content__image {
+//
+//   @include susy-media(max) {
+//     @include span(8 of 16 last);
+//   }
+//
+//  //  @include susy-media(phone) {
+//  //    @include span(full);
+//  // }
+//
+//   // // @include susy-media(max) {  @include span(16 of 16 last); }
+//   // @include susy-media(phone, 8) {
+//   //   // max-width: 100%;
+//   //   @include container();
+//   //   @include span(8 of 8);
+//   //   // @include pull(8);
+//   //   padding: 20px;
+//   //   margin: 0;
+//   //   }
+// }
 
 .slider {
   height: 425px;
@@ -18,8 +58,6 @@
   @include border-right-radius(3px);
   @include border-bottom-radius(3px);
   @include border-left-radius(3px);
-  //border: 1px solid $grey-darker;
-  //box-shadow:inset 2px 5px 20px #555;
 
   p {
     margin: 0;
