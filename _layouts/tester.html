@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include head.html %}
+
+<body>
+  {% include home/landing.html %}
+{% include header/header.html %}
+  <main class="main">
+    <div class="wrap">
+      {% include sidebar.html %}
+      {{ content }}
+      {% include testimonials.html %}
+    </div>
+  </main>
+
+{% include javascript-list.html %}
+
+
+
+  <!-- JS -->
+  <!-- inject:js -->
+  <!-- endinject -->
+
+</body>
+
+</html>

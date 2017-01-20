@@ -57,28 +57,28 @@
   }
 }
 
-.header__breadcrumbs-wrap--surrounds::before, .header__breadcrumbs-wrap::before {
-    content: "";
-  background-color: $stone;
-  top: 0;
-  left: 755px;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -2;
-}
-
-.header__breadcrumbs-wrap--surrounds::after, .header__breadcrumbs-wrap::after {
-  content: "";
-  background: url('/assets/images/textures/marble.jpg');
-  opacity: 0.2;
-  top: 0;
-  left: 755px;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
+// .header__breadcrumbs-wrap--surrounds::before, .header__breadcrumbs-wrap::before {
+//     content: "";
+//   background-color: $stone;
+//   top: 0;
+//   left: 755px;
+//   bottom: 0;
+//   right: 0;
+//   position: absolute;
+//   z-index: -2;
+// }
+//
+// .header__breadcrumbs-wrap--surrounds::after, .header__breadcrumbs-wrap::after {
+//   content: "";
+//   background: url('/assets/images/textures/marble.jpg');
+//   opacity: 0.2;
+//   top: 0;
+//   left: 755px;
+//   bottom: 0;
+//   right: 0;
+//   position: absolute;
+//   z-index: -1;
+// }
 
 
 .header__breadcrumbs-wrap .nav li a, .header__breadcrumbs-wrap--surrounds .nav li a {

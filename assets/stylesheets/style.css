@@ -638,10 +638,6 @@ b, .bold {
   min-width: 100%;
   max-width: 100%; }
 
-.fixedsticky {
-  position: -webkit-sticky;
-  position: sticky; }
-
 /**
  * Tooltip Styles
  */
@@ -811,6 +807,29 @@ b, .bold {
   margin-left: 0;
   margin-bottom: -16px; }
 
+.fixedsticky {
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0; }
+
+/* When position: sticky is supported but native behavior is ignored */
+.fixedsticky-withoutfixedfixed .fixedsticky-off,
+.fixed-supported .fixedsticky-off {
+  position: static; }
+
+.fixedsticky-withoutfixedfixed .fixedsticky-on,
+.fixed-supported .fixedsticky-on {
+  position: fixed; }
+
+.fixedsticky-dummy {
+  display: none; }
+
+.fixedsticky-on + .fixedsticky-dummy {
+  display: none; }
+
 .nav {
   list-style: none; }
 
@@ -867,27 +886,6 @@ b, .bold {
     padding: 4px 0; }
   .dropdown-surrounds .nav li a {
     font-weight: 600; }
-
-.dropdown-surrounds::before, .dropdown::before {
-  content: "";
-  background-color: #fbeee6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -2; }
-
-.dropdown-surrounds::after, .dropdown::after {
-  content: "";
-  background: url("/assets/images/textures/marble.jpg");
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; }
 
 .nav i {
   font-size: .7em;
@@ -958,55 +956,13 @@ b, .bold {
     left: 11.9em;
     position: relative; }
 
-.header__breadcrumbs-wrap--surrounds::before, .header__breadcrumbs-wrap::before {
-  content: "";
-  background-color: #fbeee6;
-  top: 0;
-  left: 755px;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -2; }
-
-.header__breadcrumbs-wrap--surrounds::after, .header__breadcrumbs-wrap::after {
-  content: "";
-  background: url("/assets/images/textures/marble.jpg");
-  opacity: 0.2;
-  top: 0;
-  left: 755px;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; }
-
 .header__breadcrumbs-wrap .nav li a, .header__breadcrumbs-wrap--surrounds .nav li a {
   font-weight: 600; }
 
 .header-wrap {
-  max-width: 100%;
+  width: 100%;
   top: 0;
   z-index: 30; }
-
-.header-wrap::before {
-  content: "";
-  background-color: #fbeee6;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -2; }
-
-.header-wrap::after {
-  content: "";
-  background: url("/assets/images/textures/marble.jpg");
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1; }
 
 .header {
   max-width: 100%;
@@ -1125,21 +1081,26 @@ b, .bold {
       margin-left: 0;
       margin-right: 0; } }
 
-.content__image {
+.content__image-wrap {
   width: 49.3670886076%;
   float: right;
   margin-right: 0;
-  top: 120px; }
+  height: 2000px; }
   @media (min-width: 200px) and (max-width: 1300px) {
-    .content__image {
+    .content__image-wrap {
       width: 100%;
       float: left;
       margin-left: 0;
       margin-right: 0;
       position: relative; } }
 
+.content__image {
+  top: 120px;
+  width: 607px; }
+
 .slider {
   height: 425px;
+  max-width: 100%;
   overflow: hidden;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -1152,6 +1113,8 @@ b, .bold {
   .slider p {
     margin: 0;
     padding: 0; }
+  .slider img {
+    max-width: 100%; }
 
 .our-story-slider-nav {
   text-align: center; }
@@ -1164,14 +1127,6 @@ b, .bold {
   margin-right: .7em;
   font-size: 1.4em;
   color: #363636; }
-
-.main-2 {
-  background: #477dca none repeat scroll 0 0;
-  height: auto;
-  left: 0;
-  position: absolute;
-  top: 100vh;
-  width: 100%; }
 
 .page {
   max-width: 85%;
@@ -1219,7 +1174,6 @@ b, .bold {
   cursor: pointer; }
 
 .sidebar {
-  height: 100%;
   text-align: right;
   top: 120px; }
   .sidebar ul li {
@@ -1431,20 +1385,8 @@ figure.snip1167 .author h5 span {
   /* Gecko Browsers */ }
 
 body {
-  background: #fbeee6;
-  color: #111111;
-  background-repeat: repeat; }
-
-body::after {
-  content: "";
-  background: url("/assets/images/textures/marble.jpg");
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: fixed;
-  z-index: -1; }
+  background: #fffff8;
+  color: #111111; }
 
 .home-wrap {
   max-width: 85%;
@@ -1460,7 +1402,8 @@ body::after {
   max-width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3em; }
+  margin-top: 3em;
+  background: #dbdbdb; }
   .wrap:after {
     content: " ";
     display: block;

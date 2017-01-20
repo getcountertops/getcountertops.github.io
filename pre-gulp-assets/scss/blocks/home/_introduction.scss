@@ -7,14 +7,19 @@
   }
 }
 
-.content__image {
+.content__image-wrap {
   @include span(8 of 16 last);
-  top: 120px;
+  height: 2000px;
 
   @include susy-media(phone) {
       @include span(full);
       position: relative;
   }
+}
+
+.content__image {
+  top: 120px;
+  width: 607px;
 }
 
 
@@ -53,6 +58,7 @@
 
 .slider {
   height: 425px;
+  max-width: 100%;
   overflow: hidden;
   @include border-top-radius(3px);
   @include border-right-radius(3px);
@@ -62,6 +68,10 @@
   p {
     margin: 0;
     padding: 0;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
 

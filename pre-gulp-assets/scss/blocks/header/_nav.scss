@@ -86,28 +86,28 @@
   }
 }
 
-.dropdown-surrounds::before, .dropdown::before {
-    content: "";
-  background-color: $stone;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -2;
-}
-
-.dropdown-surrounds::after, .dropdown::after {
-  content: "";
-  background: url('/assets/images/textures/marble.jpg');
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;
-}
+// .dropdown-surrounds::before, .dropdown::before {
+//     content: "";
+//   background-color: $stone;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   position: absolute;
+//   z-index: -2;
+// }
+//
+// .dropdown-surrounds::after, .dropdown::after {
+//   content: "";
+//   background: url('/assets/images/textures/marble.jpg');
+//   opacity: 0.2;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   position: absolute;
+//   z-index: -1;
+// }
 
 .nav i {
   font-size: .7em;
@@ -134,10 +134,3 @@
     top: 0;
     width: 121px;
 }
-
-// /* First Tier Dropdown */
-// .nav ul li {
-//     min-width:170px;
-//     display:list-item;
-//     position: relative;
-// }

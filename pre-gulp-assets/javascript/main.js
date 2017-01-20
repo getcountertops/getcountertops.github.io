@@ -1,8 +1,10 @@
 jQuery(document).ready(function($) {
 
-  $('.introduction__image').fixedsticky();
+  //FixedSticky.tests.sticky = false;
+  $('.header-wrap').fixedsticky();
+  $('.content__image').fixedsticky();
   $('.sidebar').fixedsticky();
-  $('#breadcrumbs').fixedsticky();
+
 
   $(function() {
     var pathArray = window.location.pathname.split( '/' );

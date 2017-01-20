@@ -1,6 +1,6 @@
 ---
-layout: home
+layout: tester
 ---
 
-{% include home/our-story.html %}
+{% include home/our-story-test.html %}
 {% include home/process.html %}
