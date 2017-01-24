@@ -4,22 +4,9 @@
   {% include head.html %}
 
 <body>
-  {% include home/landing.html %}
-  {% include header/header.html %}
-  <main class="main">
-    <div class="wrap">
-      {% include sidebar.html %}
-      {{ content }}
-      {% include testimonials.html %}
-    </div>
-    <div class="footer-bg-wrap">
-    <div class="wrap">
-      {% include footer/footer-sidebar.html %}
-      {% include footer/footer.html %}
-    </div>
-  </div>
-  </main>
-
+  {% include header/main-navigation.html %}
+  {% include sidebar.html %}
+  {{ content }}
 
 {% include javascript-list.html %}
 

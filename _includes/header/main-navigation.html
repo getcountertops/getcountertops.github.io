@@ -1,36 +1,42 @@
 {% assign products = site.products | where:"main-menu", "true" | sort: 'number' %}
 
-<nav id="main-navigation" role="navigation" class="header__navigation">
-  <h2 class="visuallyhidden">Main Navigation</h2>
-  <ul class="nav">
-
-    <li class="nav__item--first countertops">
-      <a data="Countertops">Countertops <i class="fa fa-caret-down" aria-hidden="true"></i>
-</a>
-<div class="countertop-safety"></div>
-      <div class="dropdown">
-      <ul class="nav">
-        <li class="nav__item--first"><a href="{{ site.url }}/products/countertops/granite/">Granite</a></li>&ensp;
-        <li class="nav__item"><a href="{{ site.url }}/products/countertops/quartz/">Quartz</a></li>&ensp;
-        <li class="nav__item"><a href="{{ site.url }}/products/countertops/solid-surface/">Solid Surface</a></li>&ensp;
-        <li class="nav__item"><a href="{{ site.url }}/products/countertops/quartzite/">Quartzite</a></li>&ensp;
-        <li class="nav__item"><a href="{{ site.url }}/products/countertops/marble/">Marble</a></li>&ensp;
+<div class="container">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <h2 class="visuallyhidden">Main Navigation</h2>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Countertops</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{ site.url }}/products/countertops/granite/">Granite</a>
+            <a class="dropdown-item" href="{{ site.url }}/products/countertops/quartz/">Quartz</a>
+            <a class="dropdown-item" href="{{ site.url }}/products/countertops/solid-surface/">Solid Surface</a>
+            <a class="dropdown-item" href="{{ site.url }}/products/countertops/quartzite/">Quartzite</a>
+            <a class="dropdown-item" href="{{ site.url }}/products/countertops/marble/">Marble</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vanity Tops</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Surrounds</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{ site.url }}/products/surrounds/fireplace/">Fireplace</a>
+            <a class="dropdown-item" href="{{ site.url }}/products/surrounds/showers/">Showers</a>
+            <a class="dropdown-item" href="{{ site.url }}/products/surrounds/tub-deck/">Tub Deck</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.url }}/products/thresholds">Thresholds</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.url }}/products/window-sills">Window Sills</a>
+        </li>
       </ul>
     </div>
-    </li>
-    <li class="nav__item"><a href="{{ site.url }}/products/vanity-tops/">Vanity Tops</a></li>
-    <li class="nav__item"><a data="Surrounds">Surrounds <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-<div class="surrounds-safety"></div>
-      <div class="dropdown-surrounds">
-        <ul class="nav">
-        <li class="nav__item--first"><a href="{{ site.url }}/products/surrounds/fireplace/">Fireplace</a></li>&ensp;
-        <li class="nav__item"><a href="{{ site.url }}/products/surrounds/showers/">Showers</a></li>&ensp;
-        <li class="nav__item"><a href="{{ site.url }}/products/surrounds/tub-deck/">Tub Deck</a></li>&ensp;
-      </ul>
-    </div>
-    </li>
-    <li class="nav__item"><a href="{{ site.url }}/products/thresholds">Thresholds</a></li>
-    <li class="nav__item"><a href="{{ site.url }}/products/window-sills">Window Sills</a></li>
-    </li>
-  </ul>
-</nav>
+  </nav>
+</div>

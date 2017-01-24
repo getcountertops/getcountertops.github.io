@@ -26,38 +26,3 @@ body::after {
   position: fixed;
   z-index: -1;
 }
-
-// Wrap
-.home-wrap {
-  @include container($base-container-width);
-  margin-top: 3em;
-}
-
-.wrap {
-  @include container($base-container-width);
-  margin-top: 3em;
-
-  @include susy-media(phone) {
-    @include container($full-container-width);
-    }
- //for testing
-  //height: 3000px;
-  //margin-top: 7em;
-  //background: $grey-lighter;
-}
-
-.content {
-  @include container();
-  @include with-layout($sidebar) {
-      margin-left: span(1 wide static);
-    }
-    @include susy-media(phone) {
-      @include container($full-container-width);
-        margin: 0 20px;
-      }
-}
-
-.main {
-  // background: $white;
-  padding: 1px 0;
-}
