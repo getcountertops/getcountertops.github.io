@@ -12,17 +12,14 @@
       {{ content }}
       {% include testimonials.html %}
     </div>
+    <div class="footer-bg-wrap">
     <div class="wrap">
-      <div class="content">
-        {% include lead-magnets/top-lead-magnet.html %}
-      </div>
+      {% include footer/footer-sidebar.html %}
+      {% include footer/footer.html %}
     </div>
-  </main>
-  <div class="wrap">
-    <hr>
-    {% include footer/footer-sidebar.html %}
-    {% include footer/footer.html %}
   </div>
+  </main>
+
 
 {% include javascript-list.html %}
 

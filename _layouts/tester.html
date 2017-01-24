@@ -4,13 +4,16 @@
   {% include head.html %}
 
 <body>
-  {% include home/landing.html %}
 {% include header/header.html %}
   <main class="main">
     <div class="wrap">
       {% include sidebar.html %}
       {{ content }}
-      {% include testimonials.html %}
+    </div>
+    <div class="wrap">
+      <div class="content">
+        {% include lead-magnets/top-lead-magnet.html %}
+      </div>
     </div>
   </main>
 

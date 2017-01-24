@@ -12,7 +12,17 @@ $side-bar-width: 100px;
   }
 }
 
-.sidebar {
+.footer--sidebar {
+  margin-top: 2.75em;
+  text-align: right;
+  top: 120px;
+
+  ul li {
+    margin: 0 1.5em 1em 0;
+  }
+}
+
+.sidebar, .footer--sidebar {
 @include with-layout($sidebar) {
     @include span(1);
   }

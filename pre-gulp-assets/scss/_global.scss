@@ -15,17 +15,17 @@ body {
   color: $black;
 }
 
-// body::after {
-//   content: "";
-//   background: url('/assets/images/textures/marble.jpg');
-//   opacity: 0.2;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-//   position: fixed;
-//   z-index: -1;
-// }
+body::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
 
 // Wrap
 .home-wrap {
@@ -37,8 +37,13 @@ body {
   @include container($base-container-width);
   margin-top: 3em;
 
-  // height: 660px;
-  background: $grey-lighter;
+  @include susy-media(phone) {
+    @include container($full-container-width);
+    }
+ //for testing
+  //height: 3000px;
+  //margin-top: 7em;
+  //background: $grey-lighter;
 }
 
 .content {
@@ -48,7 +53,7 @@ body {
     }
     @include susy-media(phone) {
       @include container($full-container-width);
-        margin: 0;
+        margin: 0 20px;
       }
 }
 

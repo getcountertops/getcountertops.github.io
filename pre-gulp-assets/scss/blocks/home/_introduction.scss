@@ -9,7 +9,11 @@
 
 .content__image-wrap {
   @include span(8 of 16 last);
-  height: 2000px;
+  //height: 600px;
+  top: 120px !important;
+  left: 52%;
+  max-height: 100%;
+
 
   @include susy-media(phone) {
       @include span(full);
@@ -18,7 +22,7 @@
 }
 
 .content__image {
-  top: 120px;
+
   width: 607px;
 }
 

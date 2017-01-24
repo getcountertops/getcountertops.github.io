@@ -9,28 +9,28 @@
   //display: none;
 }
 
-// .header-wrap::before {
-//   content: "";
-//   background-color: $stone;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-//   position: absolute;
-//   z-index: -2;
-// }
-//
-// .header-wrap::after {
-//   content: "";
-//   background: url('/assets/images/textures/marble.jpg');
-//   opacity: 0.2;
-//   top: 0;
-//   left: 0;
-//   bottom: 0;
-//   right: 0;
-//   position: absolute;
-//   z-index: -1;
-// }
+.header-wrap::before {
+  content: "";
+  background-color: $white;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.header-wrap::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
 
 .header {
   @include container($full-container-width);

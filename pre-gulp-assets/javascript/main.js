@@ -2,8 +2,43 @@ jQuery(document).ready(function($) {
 
   //FixedSticky.tests.sticky = false;
   $('.header-wrap').fixedsticky();
-  $('.content__image').fixedsticky();
+  $('.content__image-wrap').fixedsticky();
   $('.sidebar').fixedsticky();
+
+
+  $(window).resize(function() {
+ if ($(window).width() < 500) {
+   $('.header-wrap').fixedsticky( 'destroy' );
+   $('.content__image-wrap').fixedsticky( 'destroy' );
+   $('.sidebar').fixedsticky( 'destroy' );
+   $('.header-wrap').removeClass("fixedsticky");
+   $('.content__image-wrap').removeClass("fixedsticky");
+   $('.sidebar').removeClass("fixedsticky");
+ }
+else {
+  $('.header-wrap').addClass("fixedsticky");
+  $('.content__image-wrap').addClass("fixedsticky");
+  $('.sidebar').addClass("fixedsticky");
+  $('.header-wrap').fixedsticky();
+  $('.content__image-wrap').fixedsticky();
+  $('.sidebar').fixedsticky();
+}
+});
+
+
+  $('.our-story-slider').slick({
+    arrows: true,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    fade: true,
+    cssEase: 'linear',
+    speed: 1000,
+    // prevArrow: $('.prev'),
+    // nextArrow: $('.next'),
+    appendArrows: '.our-story-slider-nav',
+    nextArrow: '<a class="slider-arrow"><i class="fa fa-angle-right"></i></a>',
+    prevArrow: '<a class="slider-arrow"><i class="fa fa-angle-left"></i></a>'
+  });
 
 
   $(function() {
@@ -40,30 +75,6 @@ jQuery(document).ready(function($) {
   //   $('.landing').hide();
   // }
 
-  $(document).ready(function(){
-  $('.our-story-slider').slick({
-    arrows: true,
-    autoplay: true,
-    autoplaySpeed: 5000,
-    fade: true,
-    cssEase: 'linear',
-    speed: 1000,
-    appendArrows: '.our-story-slider-nav',
-    nextArrow: '<a class="slider-arrow"><i class="fa fa-angle-right"></i></a>',
-    prevArrow: '<a class="slider-arrow"><i class="fa fa-angle-left"></i></a>',
-  });
-});
-
-
-  // $('.owl-carousel').owlCarousel({
-  //   number: 1,
-  //   nav: true
-  // })
-
-
-//   $('.countertops').hover(function() {
-//     $('.breadcrumbs-wrap').toggle();
-// });
 
   var $toggle = $('#nav-toggle');
   var $menu = $('#nav-menu');

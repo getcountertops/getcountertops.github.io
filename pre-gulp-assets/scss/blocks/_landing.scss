@@ -1,21 +1,21 @@
 .landing {
-  height:100vh;
+  height:150vh;
   // @include texture(180deg, $grey-lighter, $grey-lighter, 54, 1);
 
   display: flex;
 
-  // background: url('http://localhost:3000/assets/images/kitchen-1.jpg') no-repeat center center fixed;
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
-  // background-size: cover;
+  background: url('http://localhost:3000/assets/images/products/granite/granite-1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .landing__text-wrap {
-  // flex: 2 0 20%;
   display: flex;
-  margin: 3em 0 0 4em;
-    width: 35em;
+  height: auto;
+  //margin-top: 5em;
+  width: 100%;
 }
 
 .landing__video-wrap {
@@ -25,8 +25,29 @@
 
 
 .landing__text {
-// margin: 3em 0 0 4em;
+ margin: 0 auto;
+ padding: 0 3em;
+ height: 10em;
+ width: 35em;
+ background: rgba(255,255,255,0.9);
+ border-right: 2px solid $primary;
+ border-bottom: 2px solid $primary;
+ border-left: 2px solid $primary;
+
+ .h2 {
+    color: $primary;
+    margin-top: .5em;
+ }
+ @include susy-media(phone) {
+   height: 8em;
+   .h2 {
+      font-size: 1.25em;
+      margin-top: .5em;
+   }
+ }
 }
+
+
 
 .landing__video  {
 	// position: relative;

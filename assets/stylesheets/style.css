@@ -964,6 +964,27 @@ b, .bold {
   top: 0;
   z-index: 30; }
 
+.header-wrap::before {
+  content: "";
+  background-color: #fffff8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; }
+
+.header-wrap::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
 .header {
   max-width: 100%;
   margin-left: auto;
@@ -1085,7 +1106,9 @@ b, .bold {
   width: 49.3670886076%;
   float: right;
   margin-right: 0;
-  height: 2000px; }
+  top: 120px !important;
+  left: 52%;
+  max-height: 100%; }
   @media (min-width: 200px) and (max-width: 1300px) {
     .content__image-wrap {
       width: 100%;
@@ -1095,7 +1118,6 @@ b, .bold {
       position: relative; } }
 
 .content__image {
-  top: 120px;
   width: 607px; }
 
 .slider {
@@ -1179,27 +1201,55 @@ b, .bold {
   .sidebar ul li {
     margin: 0 1.5em 1em 0; }
 
-.sidebar {
+.footer--sidebar {
+  margin-top: 2.75em;
+  text-align: right;
+  top: 120px; }
+  .footer--sidebar ul li {
+    margin: 0 1.5em 1em 0; }
+
+.sidebar, .footer--sidebar {
   width: 50px;
   float: left;
   margin-left: 0;
   margin-right: 0; }
   @media (min-width: 200px) and (max-width: 1300px) {
-    .sidebar {
+    .sidebar, .footer--sidebar {
       display: none; } }
 
 .landing {
-  height: 100vh;
-  display: flex; }
+  height: 150vh;
+  display: flex;
+  background: url("http://localhost:3000/assets/images/products/granite/granite-1.jpg") no-repeat center center fixed;
+  background-size: cover; }
 
 .landing__text-wrap {
   display: flex;
-  margin: 3em 0 0 4em;
-  width: 35em; }
+  height: auto;
+  width: 100%; }
 
 .landing__video-wrap {
   flex: 1;
   display: flex; }
+
+.landing__text {
+  margin: 0 auto;
+  padding: 0 3em;
+  height: 10em;
+  width: 35em;
+  background: rgba(255, 255, 255, 0.9);
+  border-right: 2px solid #753b86;
+  border-bottom: 2px solid #753b86;
+  border-left: 2px solid #753b86; }
+  .landing__text .h2 {
+    color: #753b86;
+    margin-top: .5em; }
+  @media (min-width: 200px) and (max-width: 1300px) {
+    .landing__text {
+      height: 8em; }
+      .landing__text .h2 {
+        font-size: 1.25em;
+        margin-top: .5em; } }
 
 .landing__video {
   margin: 6.5em 0 0 3em; }
@@ -1262,8 +1312,18 @@ b, .bold {
 .texture .texture-inverted {
   background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/kindajean.png"), linear-gradient(180deg, #fffffd, #ffffc5), center no-repeat #fffffd scroll; }
 
+.footer-bg-wrap {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(51, 51, 51, 0.1); }
+  .footer-bg-wrap:after {
+    content: " ";
+    display: block;
+    clear: both; }
+
 .footer {
-  margin-bottom: 2em; }
+  padding: 3em 0 10em; }
 
 .address {
   width: 30.3797468354%;
@@ -1388,6 +1448,17 @@ body {
   background: #fffff8;
   color: #111111; }
 
+body::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1; }
+
 .home-wrap {
   max-width: 85%;
   margin-left: auto;
@@ -1402,12 +1473,20 @@ body {
   max-width: 85%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3em;
-  background: #dbdbdb; }
+  margin-top: 3em; }
   .wrap:after {
     content: " ";
     display: block;
     clear: both; }
+  @media (min-width: 200px) and (max-width: 1300px) {
+    .wrap {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      .wrap:after {
+        content: " ";
+        display: block;
+        clear: both; } }
 
 .content {
   max-width: 100%;
@@ -1423,7 +1502,7 @@ body {
       max-width: 100%;
       margin-left: auto;
       margin-right: auto;
-      margin: 0; }
+      margin: 0 20px; }
       .content:after {
         content: " ";
         display: block;
