@@ -4,13 +4,10 @@
   {% include head.html %}
 
   <body>
-    {% include header/header.html %}
-    <main class="main">
-      <div class="wrap">
-        {% include sidebar.html %}
-        {{ content }}
-      </div>
-    </main>
+    {% include home/landing.html %}
+    {% include header/main-navigation.html %}
+    {% include sidebar.html %}
+    {{ content }}
 
 {% include javascript-list.html %}
 

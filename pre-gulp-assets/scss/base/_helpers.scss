@@ -10,13 +10,21 @@
     top: 120px;
 }
 
-.sticky:before,
-.sticky:after {
-    content: '';
-    display: table;
+// .sticky:before,
+// .sticky:after {
+//     content: '';
+//     display: table;
+// }
+
+@mixin rounded($radius: 0.5em) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
 }
 
-
+.is-first-heading {
+  margin-top: 0 !important;
+}
 
 
 

@@ -13,6 +13,8 @@
 body {
   background: $white;
   color: $black;
+  font-smooth: never;
+-webkit-font-smoothing : none;
 }
 
 body::after {
@@ -25,4 +27,8 @@ body::after {
   right: 0;
   position: fixed;
   z-index: -1;
+}
+
+.section {
+  margin-top: 5em;
 }

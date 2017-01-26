@@ -1,4 +1,10 @@
 .container {
+  width: 100%;
+  margin-left: 0;
+  // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
   width: 86%;
   margin-left: 10rem;
+ }
 }

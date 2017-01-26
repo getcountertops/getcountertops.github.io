@@ -1,0 +1,68 @@
+.nav-wrap {
+
+}
+
+.navbar {
+  padding: .5rem 0 0 0;
+  // width: 1100px;
+  border-bottom: 1px solid $grey-lighter;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-family: $sans-serif;
+    font-weight: 700;
+
+    &:focus,
+    &:hover {
+      color: $primary;
+    }
+}
+
+.dropdown-menu {
+  font-family: $sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  top: 48px;
+  border-left: 1px solid $grey-lighter;
+  border-bottom: 1px solid $grey-lighter;
+  border-right: 1px solid $grey-lighter;
+  border-top: none;
+  z-index: 50;
+}
+
+.dropdown-menu--countertops {
+  width: 675px;
+}
+
+.dropdown-menu--surrounds {
+  width: 408px;
+}
+
+.dropdown-menu::before {
+  content: "";
+  background-color: $white;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2;
+}
+
+.dropdown-menu::after {
+  content: "";
+  background: url('/assets/images/textures/marble.jpg');
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.is-active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid $primary;
+}

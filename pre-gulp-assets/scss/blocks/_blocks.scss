@@ -1,1 +1,12 @@
-@import "nav";
+@import "landing";
+@import "header/header";
+@import "sidebar/sidebar";
+
+
+.carousel {
+  margin-left: 0;
+  @media (min-width: 992px) {
+    margin-left: 3rem;
+   }
+
+}

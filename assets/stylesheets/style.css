@@ -1,3 +1,55 @@
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 120px; }
+
+.is-first-heading {
+  margin-top: 0 !important; }
+
+.border-bottom {
+  border-bottom: 1px solid #111111;
+  padding-bottom: 5em; }
+
+.border-top {
+  border-top: 1px solid #111111;
+  padding-top: 2em; }
+
+.is-first-heading {
+  margin-top: 0; }
+
+.defer-img > img {
+  display: block;
+  min-width: 100%;
+  max-width: 100%; }
+
+.container {
+  width: 100%;
+  margin-left: 0; }
+  @media (min-width: 992px) {
+    .container {
+      width: 86%;
+      margin-left: 10rem; } }
+
 body {
   -webkit-font-smoothing: antialiased;
   color: #111111;
@@ -77,55 +129,12 @@ b, .bold {
 .sans-serif {
   font-family: "Source Sans Pro", sans-serif; }
 
-.container {
-  width: 86%;
-  margin-left: 10rem; }
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700; }
 
-/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px; }
-
-/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto; }
-
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 120px; }
-
-.sticky:before,
-.sticky:after {
-  content: '';
-  display: table; }
-
-.border-bottom {
-  border-bottom: 1px solid #111111;
-  padding-bottom: 5em; }
-
-.border-top {
-  border-top: 1px solid #111111;
-  padding-top: 2em; }
-
-.is-first-heading {
-  margin-top: 0; }
-
-.defer-img > img {
-  display: block;
-  min-width: 100%;
-  max-width: 100%; }
+.mini-cta {
+  border-top: 1px solid #753b86; }
 
 /**
  * Tooltip Styles
@@ -296,8 +305,208 @@ b, .bold {
   margin-left: 0;
   margin-bottom: -16px; }
 
-.navbar-nav {
-  float: right; }
+.landing {
+  height: 150vh;
+  display: flex;
+  background: url("http://localhost:3000/assets/images/products/granite/granite-1.jpg") no-repeat center center fixed;
+  background-size: cover; }
+
+.landing__text-wrap {
+  display: flex;
+  height: auto;
+  width: 100%; }
+
+.landing__video-wrap {
+  flex: 1;
+  display: flex; }
+
+.landing__text {
+  margin: 0 auto;
+  padding: 0 3em;
+  height: 10em;
+  width: 41em;
+  background: rgba(255, 255, 255, 0.9);
+  border-right: 2px solid #753b86;
+  border-bottom: 2px solid #753b86;
+  border-left: 2px solid #753b86; }
+  .landing__text .h2 {
+    color: #753b86;
+    margin-top: .5em; }
+
+.landing__video {
+  margin: 6.5em 0 0 3em; }
+
+.landing__video iframe {
+  width: 578px;
+  height: 357px; }
+
+.landing__form {
+  flex: 1; }
+  .landing__form .landing__form__button {
+    display: inline;
+    background-color: #753b86;
+    color: #fffff8;
+    margin-left: .5em;
+    font-size: 1em;
+    height: rem(47);
+    padding: 0 12px;
+    width: inherit;
+    border-bottom: 4px solid shade(#753b86, 30%); }
+  .landing__form .landing__form__input {
+    font-size: 1em;
+    height: 2.25em;
+    margin: 1em 0;
+    width: 70%;
+    display: inline; }
+
+.film-link {
+  background: #4a4a4a;
+  color: #fffff8;
+  margin: 3em 0 0 13.5em;
+  font-size: 1em;
+  height: rem(47);
+  padding: 0 12px;
+  width: inherit;
+  border-bottom: 4px solid shade(#753b86, 60%); }
+  .film-link i {
+    padding-left: 15px; }
+
+.logomark-small {
+  height: 75px;
+  position: relative;
+  right: 7px;
+  top: 23em; }
+
+.landing-logo {
+  position: relative;
+  top: 21em; }
+
+.logomark-2 {
+  height: 75px; }
+
+.logomark-main {
+  height: 90px;
+  margin-top: 1em; }
+
+.navbar {
+  padding: .5rem 0 0 0;
+  border-bottom: 1px solid #dbdbdb; }
+
+.nav-item {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700; }
+  .nav-item:focus, .nav-item:hover {
+    color: #753b86; }
+
+.dropdown-menu {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  top: 48px;
+  border-left: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  border-right: 1px solid #dbdbdb;
+  border-top: none;
+  z-index: 50; }
+
+.dropdown-menu--countertops {
+  width: 675px; }
+
+.dropdown-menu--surrounds {
+  width: 408px; }
+
+.dropdown-menu::before {
+  content: "";
+  background-color: #fffff8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; }
+
+.dropdown-menu::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.is-active {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #753b86; }
+
+.header {
+  top: 0;
+  z-index: 100;
+  height: 65px; }
+
+.header::before {
+  content: "";
+  background-color: #fffff8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -2; }
+
+.header::after {
+  content: "";
+  background: url("/assets/images/textures/marble.jpg");
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; }
+
+.logo-link:hover {
+  color: #753b86; }
+
+.logomark {
+  height: 53px;
+  left: -115px;
+  margin-right: 7px;
+  position: absolute;
+  top: 6px; }
+
+.navbar-brand {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #363636; }
+
+.fa {
+  cursor: pointer; }
+
+.sidebar {
+  left: 95px;
+  text-align: center;
+  top: 120px;
+  margin-top: 6em; }
+  .sidebar ul li {
+    margin: 0 1.5em 1em 0; }
+
+.footer--sidebar {
+  margin-top: 2.75em;
+  text-align: right;
+  top: 120px; }
+  .footer--sidebar ul li {
+    margin: 0 1.5em 1em 0; }
+
+.carousel {
+  margin-left: 0; }
+  @media (min-width: 992px) {
+    .carousel {
+      margin-left: 3rem; } }
 
 ::-moz-selection {
   background: #b094b8;
@@ -313,7 +522,9 @@ b, .bold {
 
 body {
   background: #fffff8;
-  color: #111111; }
+  color: #111111;
+  font-smooth: never;
+  -webkit-font-smoothing: none; }
 
 body::after {
   content: "";
@@ -325,5 +536,8 @@ body::after {
   right: 0;
   position: fixed;
   z-index: -1; }
+
+.section {
+  margin-top: 5em; }
 
 /*# sourceMappingURL=style.css.map */
