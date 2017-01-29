@@ -8,6 +8,54 @@
   border-bottom: 1px solid $grey-lighter;
 }
 
+.navbar-brand {
+  font-family: $sans-serif-condensed;
+  font-size: 1.3em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $grey-darker;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: .75em !important;
+  }
+  .navbar-collapse::before {
+    content: "";
+    background-color: $white;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+  }
+
+  .navbar-collapse::after {
+    content: "";
+    background: url('/assets/images/textures/marble.jpg');
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+
+
+.navbar-toggler-right {
+  right: 0.01rem;
+  line-height: none;
+}
+
+// .navbar-toggler-icon {
+//   position: relative;
+//   top: 8px;
+// }
+
 .nav-item {
     text-decoration: none;
     font-family: $sans-serif;
@@ -19,11 +67,19 @@
     }
 }
 
+.dropdown-item:focus, .dropdown-item:hover {
+  color: $primary;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background: none;
+  font-weight: 700;
+}
+
 .dropdown-menu {
   font-family: $sans-serif;
   font-weight: 500;
   font-size: 1em;
-  top: 48px;
+  top: 53px;
   border-left: 1px solid $grey-lighter;
   border-bottom: 1px solid $grey-lighter;
   border-right: 1px solid $grey-lighter;
@@ -32,11 +88,11 @@
 }
 
 .dropdown-menu--countertops {
-  width: 675px;
+  //width: 675px;
 }
 
 .dropdown-menu--surrounds {
-  width: 408px;
+  //width: 408px;
 }
 
 .dropdown-menu::before {

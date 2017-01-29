@@ -3,10 +3,12 @@
 $side-bar-width: 100px;
 
 .sidebar {
-  left: 95px;
+  left: 95px !important;
   text-align: center;
   top: 120px;
   margin-top: 6em;
+  color: $primary;
+  z-index: 60;
 
   ul li {
     margin: 0 1.5em 1em 0;
