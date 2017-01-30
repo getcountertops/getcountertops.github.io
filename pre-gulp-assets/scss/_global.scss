@@ -11,26 +11,26 @@
 // Body
 
 body {
-  background: $white;
+  background: $background-color;
   color: $black;
   font-smooth: never;
 -webkit-font-smoothing : none;
 }
-
-body::after {
-  content: "";
-  background: url('/assets/images/textures/marble.jpg');
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: fixed;
-  z-index: -1;
-}
+//
+// body::after {
+//   content: "";
+//   background: url('/assets/images/textures/marble.jpg');
+//   opacity: 0.2;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   position: fixed;
+//   z-index: -1;
+// }
 
 .section {
-  margin-top: 5em;
+  margin-top: 3em;
 }
 
 @media (max-width: 600px) {

@@ -1,38 +1,42 @@
-<footer class="footer content" role="footer">
+<footer class="container footer content" role="footer">
   <h2 class="visuallyhidden">Footer</h2>
-  {% include footer/address.html %}
-  <div class="footer__nav__column">
+
+  <div class="row">
+    {% include footer/address.html %}
+    <div class="col-lg-4 col-sm-12 footer-section">
     <p class="h4 is-first-heading">Information</p>
-    <ul>
+    <ul class="list-unstyled">
         <!-- <li><a href="{{ site.url }}/about">History & Process</a></li> -->
         <!-- <li><a href="{{ site.url }}/ultimate-countertop-guide">Ultimate Countertop Guide</a></li> -->
         <li><a href="{{ site.url }}/stone-remnants/">Stone Remnants</a></li>
         <li><a>Frequently Asked Questions</a></li>
         <li><a href="{{ site.url }}/terms">Terms & Privacy Policy</a></li>
     </ul>
-    <ul>
+    <ul class="list-unstyled">
+      <p class="h4">Kitchen</p>
+      <li><a href="{{ site.url }}/products/countertops/granite/">Granite Countertops</a></li>
+      <li><a href="{{ site.url }}/products/countertops/marble/">Marble Countertops</a></li>
+      <li><a href="{{ site.url }}/products/countertops/quartz/">Quartz Countertops</a></li>
+      <li><a href="{{ site.url }}/products/countertops/quartzite/">Quartzite Countertops</a></li>
+      <li><a href="{{ site.url }}/products/countertops/solid-surface/">Solid Surface Countertops</a></li>
+    </ul>
+
+  </div>
+  <div class="col-lg-4 col-sm-12 footer-section">
+    <ul class="list-unstyled">
+      <p class="h4 is-first-heading">Bathroom</p>
+      <li><a href="{{ site.url }}/products/vanity-tops/">Cultured Marble Vanity Tops</a></li>
+      <li><a href="{{ site.url }}/products/surrounds/showers/">Shower Surrounds</a></li>
+      <li><a href="{{ site.url }}/products/surrounds/tub-deck/">Tub Deck Surrounds</a></li>
+    </ul>
+    <ul class="list-unstyled">
       <p class="h4 household-heading">Household Surfaces</p>
-      <li><a href="/products/window-sills/">Window Sills</a></li>
-      <li><a href="/products/surrounds/fireplace/">Fireplace Surrounds</a></li>
-      <li><a href="/products/thresholds/">Thresholds</a></li>
+      <li><a href="{{ site.url }}/products/window-sills/">Window Sills</a></li>
+      <li><a href="{{ site.url }}/products/surrounds/fireplace/">Fireplace Surrounds</a></li>
+      <li><a href="{{ site.url }}/products/thresholds/">Thresholds</a></li>
     </ul>
   </div>
-  <div class="footer__nav__column">
-    <ul>
-      <p class="h4 is-first-heading">Kitchen</p>
-      <li><a href="/products/countertops/granite/">Granite Countertops</a></li>
-      <li><a href="/products/countertops/marble/">Marble Countertops</a></li>
-      <li><a href="/products/countertops/quartz/">Quartz Countertops</a></li>
-      <li><a href="/products/countertops/quartzite/">Quartzite Countertops</a></li>
-      <li><a href="/products/countertops/solid-surface/">Solid Surface Countertops</a></li>
-    </ul>
-    <ul>
-      <p class="h4">Bathroom</p>
-      <li><a href="/products/vanity-tops/">Cultured Marble Vanity Tops</a></li>
-      <li><a href="/products/surrounds/showers/">Shower Surrounds</a></li>
-      <li><a href="/products/surrounds/tub-deck/">Tub Deck Surrounds</a></li>
-    </ul>
+  <div class="col-lg-4 col-sm-12">
   </div>
-  <div class="footer__nav__column--last">
-  </div>
+</div>
 </footer>

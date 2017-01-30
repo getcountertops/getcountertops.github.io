@@ -9,13 +9,24 @@ figure.snip1167 {
   // margin: 10px 1%;
   // min-width: 220px;
   margin: 5% 5%;
-    max-width: 90%;
+  max-width: 60%;
   max-width: 589px;
   width: 100%;
   color: $black;
   text-align: left;
   box-shadow: none;
 }
+
+@media (max-width: 500px) {
+  figure.snip1167 {
+    margin: 5% 5%;
+    max-width: 90%;
+  }
+  }
+
+
+
+
 figure.snip1167 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;

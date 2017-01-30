@@ -7,6 +7,7 @@ main-menu: true
 materials: quartz
 type: Engineered Stone
 number: 5
+slider-images: [2,3,4,5,6,7,8,24,25,26,28,29]
 ---
 
 <section class="container section">
@@ -15,15 +16,15 @@ number: 5
 <div class="col-lg-7 push-lg-5 col-sm-12">
 <div id="carouselExampleControls" class="carousel slide content__image sticky" data-ride="carousel">
 <div class="carousel-inner" role="listbox">
-<div class="carousel-item active">
-  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/granite/1.jpg" alt="First slide">
+
+{% for image in page.slider-images %}
+
+<div class="carousel-item {% if forloop.first == true %} active {% endif %}">
+  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/quartz/{{ image }}.jpg" alt="First slide">
 </div>
-<div class="carousel-item">
-  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/granite/2.jpg" alt="Second slide">
-</div>
-<div class="carousel-item">
-  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/granite/3.jpg" alt="Third slide">
-</div>
+
+{% endfor %}
+
 </div>
 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>

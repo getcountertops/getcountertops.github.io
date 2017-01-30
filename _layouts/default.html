@@ -4,12 +4,12 @@
   {% include head.html %}
 
   <body>
-    {% include home/landing.html %}
     {% include header/main-navigation.html %}
     {% include sidebar.html %}
     {{ content }}
+    {% include footer/footer.html %}
+    {% include javascript-list.html %}
 
-{% include javascript-list.html %}
 
   <!-- JS -->
   <!-- inject:js -->
