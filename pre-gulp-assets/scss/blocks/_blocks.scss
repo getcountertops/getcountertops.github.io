@@ -13,6 +13,7 @@
 }
 
 .carousel-item {
+  max-width: 100% !important;
   @media (max-width: 500px) {
     max-height: 300px;
    }
