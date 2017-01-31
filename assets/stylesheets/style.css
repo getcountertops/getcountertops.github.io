@@ -23,6 +23,11 @@
   position: sticky;
   top: 120px; }
 
+.sticky:before,
+.sticky:after {
+  content: '';
+  display: table; }
+
 .is-first-heading {
   margin-top: 0 !important; }
 
@@ -537,7 +542,7 @@ figure.snip1167 .author h5 span {
 
 .footer {
   margin-top: 5em;
-  margin-bottom: 7em; }
+  height: 83vh; }
 
 @media (max-width: 768px) {
   .footer {

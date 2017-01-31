@@ -10,11 +10,11 @@
     top: 120px;
 }
 
-// .sticky:before,
-// .sticky:after {
-//     content: '';
-//     display: table;
-// }
+.sticky:before,
+.sticky:after {
+    content: '';
+    display: table;
+}
 
 @mixin rounded($radius: 0.5em) {
   -webkit-border-radius: $radius;
