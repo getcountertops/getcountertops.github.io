@@ -12,6 +12,12 @@
    }
 }
 
+.carousel-item {
+  @media (max-width: 500px) {
+    max-height: 300px;
+   }
+}
+
 .headroom {
     will-change: transform;
     transition: transform 200ms linear;

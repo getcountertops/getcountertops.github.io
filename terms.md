@@ -3,8 +3,9 @@ layout: default
 title: Terms
 permalink: /terms/
 ---
-<div class="content">
-  <div class="content__text">
+<section class="container section">
+  <div class="row">
+<div class="col-lg-5 col-sm-12">
 <h2 class="h2 is-first-heading">Terms of Service</h2>
 
 <h3 class="title">1. Terms</h3>
@@ -73,9 +74,11 @@ permalink: /terms/
     <li>We will protect personal information by using reasonable security safeguards against loss or theft, as well as unauthorized access, disclosure, copying, use or modification.</li>
 
     <li>We will make readily available to customers information about our policies and practices relating to the management of personal information.</li>
-    
+
     <li>We will only retain personal information for as long as necessary for the fulfilment of those purposes.</li>
   </ul>
 
   <p>We are committed to conducting our business in accordance with these principles in order to ensure that the confidentiality of personal information is protected and maintained. Central Florida Marble, LLC. may change this privacy policy from time to time at Central Florida Marble, LLC.'s sole discretion.</p>
   </div>
+  </div>
+  </section>

@@ -545,6 +545,10 @@ figure.snip1167 .author h5 span {
     .carousel {
       margin-left: 3rem; } }
 
+@media (max-width: 500px) {
+  .carousel-item {
+    max-height: 300px; } }
+
 .headroom {
   will-change: transform;
   transition: transform 200ms linear; }

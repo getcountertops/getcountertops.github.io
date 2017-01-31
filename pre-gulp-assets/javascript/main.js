@@ -1,8 +1,17 @@
 jQuery(document).ready(function($) {
 
-$('header').Stickyfill();
+$('.header').Stickyfill();
 $('.content__image').Stickyfill();
 $('.sidebar').Stickyfill();
+
+$(window).resize(function() {
+ if ($(window).width() < 500) {
+   Stickyfill.stop();
+ } else {
+   Stickyfill.init();
+ }
+});
+
 
 var myElement = document.querySelector(".header");
 // construct an instance of Headroom, passing the element
