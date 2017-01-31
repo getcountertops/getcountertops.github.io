@@ -107,6 +107,7 @@
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   z-index: 50;
+  background: $white;
 
   @media (max-width: 768px) {
     border: none;
