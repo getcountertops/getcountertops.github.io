@@ -545,11 +545,12 @@ figure.snip1167 .author h5 span {
     .carousel {
       margin-left: 3rem; } }
 
-.carousel-item {
-  max-width: 100% !important; }
-  @media (max-width: 500px) {
-    .carousel-item {
-      max-height: 300px; } }
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  width: 100%; }
 
 .headroom {
   will-change: transform;
