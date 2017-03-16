@@ -34,9 +34,9 @@ number: 4
 
 A solid surface countertop is an acrylic-based product composed of mineral dust, resins and pigments. It is manufactured in a variety of different pattern and color combinations for a uniform, soft-matte and seamless appearance.
 
-Solid surface has the second highest tolerance for direct heat: up to 180&deg;F / 352&deg;C. It is easy to clean and stain resistant. It is non-porous, so it won't draw in moisture or bacteria and does not require sealing.
+Solid surface is easy to clean and stain resistant. It is non-porous, so it won't draw in moisture or bacteria and does not require sealing.
 
-Solid surfaces can develop scratches and scorching, but they can also be restored with polishing and sanding, which is not possible with damaged natural or engineered stone.
+Solid surfaces can develop scratches and scorching, but they can also be restored with polishing, which is not possible with damaged natural or engineered stone.
 
 These countertops can be a less expensive option when compared with quartz or granite.
 

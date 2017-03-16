@@ -7,7 +7,7 @@ main-menu: true
 materials: quartz
 type: Engineered Stone
 number: 5
-slider-images: [2,3,4,5,6,7,8,24,25,26,28,29]
+slider-images: [1,34,2,3,4,5,6,7,8,24,25,26,28,29]
 ---
 
 <section class="container section">

@@ -4,12 +4,12 @@
 
   display: flex;
 
-  background: url('https://getcountertops.github.io/assets/images/products/granite/granite-1.jpg') no-repeat center center fixed;
+  background: url('https://getcountertops.github.io/assets/images/products/granite/granite-1.jpg') no-repeat scroll right top;
+  /* center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
 
 .landing__text-wrap {
   display: flex;
