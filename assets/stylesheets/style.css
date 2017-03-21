@@ -316,43 +316,39 @@ a {
 .landing {
   height: 150vh;
   display: flex;
-  background: url("https://getcountertops.github.io/assets/images/products/granite/granite-1.jpg") no-repeat center center fixed;
+  background: url("https://getcountertops.github.io/assets/images/products/granite/granite-1.jpg") no-repeat scroll right top;
+  /* center center fixed; */
   background-size: cover; }
-
-.landing__text-wrap {
-  display: flex;
-  height: auto;
-  width: 100%; }
-
-.landing__video-wrap {
-  flex: 1;
-  display: flex; }
-
-.landing__text {
-  margin: 0 auto;
-  padding: 0 3em;
-  height: 10em;
-  width: 41em;
-  background: rgba(255, 255, 255, 0.9);
-  border-right: 2px solid #753b86;
-  border-bottom: 2px solid #753b86;
-  border-left: 2px solid #753b86; }
-  .landing__text .h2 {
-    color: #753b86;
-    margin-top: .5em; }
-
-@media (max-width: 768px) {
-  .landing__text {
-    height: 9em; }
-    .landing__text .h2 {
-      font-size: 1.75em; } }
-
-@media (max-width: 600px) {
-  .landing__text {
-    height: 7.5em;
-    padding: 0 20px; }
-    .landing__text .h2 {
-      font-size: 1em; } }
+  .landing .landing__text-wrap {
+    display: flex;
+    height: auto;
+    width: 100%; }
+  .landing .landing__video-wrap {
+    flex: 1;
+    display: flex; }
+  .landing .landing__text {
+    margin: 0 auto;
+    padding: 0 3em;
+    height: 10em;
+    width: 41em;
+    background: rgba(255, 255, 255, 0.9);
+    border-right: 2px solid #753b86;
+    border-bottom: 2px solid #753b86;
+    border-left: 2px solid #753b86; }
+    .landing .landing__text .h2 {
+      color: #753b86;
+      margin-top: .5em; }
+  @media (max-width: 768px) {
+    .landing .landing__text {
+      height: 9em; }
+      .landing .landing__text .h2 {
+        font-size: 1.75em; } }
+  @media (max-width: 600px) {
+    .landing .landing__text {
+      height: 7.5em;
+      padding: 0 20px; }
+      .landing .landing__text .h2 {
+        font-size: 1em; } }
 
 .navbar {
   padding: .5rem 0;
