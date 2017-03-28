@@ -3,7 +3,7 @@
 title: Central Florida Marble
 description: description
 #url: http://localhost:3000
-url: https://getcountertops.github.io
+url: https://getcountertops.com
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 # source: .tmp/src
