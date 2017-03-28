@@ -48,7 +48,7 @@ Quartzite is hard to scratch or chip and is heat resistant. The natural stone do
 
 No two stone slabs are alike. To avoid any surprises, we suggest making an appointment to view the entire slab at the stone yard to make the perfect selection.
 
-<a href="{{ site.url }}/products/window-sills/">Window sills</a> and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with quartzite.
+<a href="{{ site.github.url }}/products/window-sills/">Window sills</a> and <a href="{{ site.github.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.github.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.github.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with quartzite.
 
 </div>
 </div>

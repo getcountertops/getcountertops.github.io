@@ -20,7 +20,7 @@ slider-images: [1,34,2,3,4,5,6,7,8,24,25,26,28,29]
 {% for image in page.slider-images %}
 
 <div class="carousel-item {% if forloop.first == true %} active {% endif %}">
-  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/quartz/{{ image }}.jpg" alt="First slide">
+  <img class="d-block img-fluid" src="{{ site.github.url }}/assets/images/products/quartz/{{ image }}.jpg" alt="First slide">
 </div>
 
 {% endfor %}
@@ -49,7 +49,7 @@ Quartz is very durable; it is hard to scratch or chip and has the third highest 
 
 **Quartz is perfect for you if you want a durable countertop that can either mimic natural stone and/or achieve a uniform appearance to hide seams and requires minimal maintenance.**
 
-<a href="{{ site.url }}/products/window-sills/">Window sills</a>, <a href="{{ site.url }}/products/thresholds/">thresholds</a>, and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with quartz.
+<a href="{{ site.github.url }}/products/window-sills/">Window sills</a>, <a href="{{ site.github.url }}/products/thresholds/">thresholds</a>, and <a href="{{ site.github.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.github.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.github.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with quartz.
 
 We are a certified fabricator of Cambria and Dupont Zodiac quartz surfaces and manufacture many other brand-name quartz products.
 

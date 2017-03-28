@@ -16,13 +16,13 @@ number: 1
 <div id="carouselExampleControls" class="carousel slide content__image sticky" data-ride="carousel">
 <div class="carousel-inner" role="listbox">
 <div class="carousel-item active">
-  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/granite/1.jpg" alt="First slide">
+  <img class="d-block img-fluid" src="{{ site.github.url }}/assets/images/products/granite/1.jpg" alt="First slide">
 </div>
 <div class="carousel-item">
-  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/granite/2.jpg" alt="Second slide">
+  <img class="d-block img-fluid" src="{{ site.github.url }}/assets/images/products/granite/2.jpg" alt="Second slide">
 </div>
 <div class="carousel-item">
-  <img class="d-block img-fluid" src="{{ site.url }}/assets/images/products/granite/3.jpg" alt="Third slide">
+  <img class="d-block img-fluid" src="{{ site.github.url }}/assets/images/products/granite/3.jpg" alt="Third slide">
 </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -50,7 +50,7 @@ The natural stone does require special maintenance. It is porous and needs to be
 
 No two stone slabs are alike. To avoid any surprises, we suggest making an appointment to view the entire slab at the stone yard to make the perfect selection.
 
-<a href="{{ site.url }}/products/window-sills/">Window sills</a> and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with granite.
+<a href="{{ site.github.url }}/products/window-sills/">Window sills</a> and <a href="{{ site.github.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.github.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.github.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with granite.
 </div>
 </div>
 </section>

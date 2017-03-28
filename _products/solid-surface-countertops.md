@@ -42,7 +42,7 @@ These countertops can be a less expensive option when compared with quartz or gr
 
 **Solid surface is perfect for you if you want a seamless countertop that has a uniform appearance, requires minimal maintenance, and can be restored if damaged.**
 
-<a href="{{ site.url }}/products/window-sills">Window sills</a> and <a href="{{ site.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with solid surfaces.
+<a href="{{ site.github.url }}/products/window-sills">Window sills</a> and <a href="{{ site.github.url }}/products/surrounds/fireplace/">fireplace</a>, <a href="{{ site.github.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.github.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with solid surfaces.
 
 We are a certified fabricator of Wilson Art and Dupont Corian solid surfaces and fabricate many other brand-name quartz products. We have fabricated Dupont Corian for over 20 years.
 

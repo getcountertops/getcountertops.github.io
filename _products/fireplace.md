@@ -36,7 +36,7 @@ Cultured marble is easy to clean and stain resistant. It is non-porous, so it wo
 
 Cultured marble can develop scratches and scorching, but can also be restored with polishing. which is not possible with damaged natural or engineered stone.
 
-<a href="{{ site.url }}/products/window-sills">Window sills</a> and <a href="{{ site.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with cultured marble. Cultured marble is not available for kitchen countertops.
+<a href="{{ site.github.url }}/products/window-sills">Window sills</a> and <a href="{{ site.github.url }}/products/surrounds/showers/">showers</a> and <a href="{{ site.github.url }}/products/surrounds/tub-deck/">tub deck</a> surrounds can also be fabricated with cultured marble. Cultured marble is not available for kitchen countertops.
 
 </div>
 </div>
