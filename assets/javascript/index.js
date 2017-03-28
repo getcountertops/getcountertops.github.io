@@ -32,13 +32,13 @@ jQuery(document).ready(function ($) {
     }
   });
 
-  // var secondVisit = sessionStorage.getItem('secondVisit');
-  //   if (secondVisit == null) {
-  //       sessionStorage.setItem('secondVisit', 1);
-  //       $('.landing').show();
-  //   } else {
-  //     $('.landing').hide();
-  // }
+  var secondVisit = sessionStorage.getItem('secondVisit');
+  if (secondVisit == null) {
+    sessionStorage.setItem('secondVisit', 1);
+    $('.landing').show();
+  } else {
+    $('.landing').hide();
+  }
 
   $(function () {
     var pathArray = window.location.pathname.split('/');
