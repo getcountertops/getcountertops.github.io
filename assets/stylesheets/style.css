@@ -316,8 +316,8 @@ a {
 .landing {
   height: 150vh;
   display: flex;
-  background: url("https://getcountertops.com/assets/images/products/granite/granite-1.jpg") no-repeat scroll center center fixed;
-  /* right top */
+  background: url("https://getcountertops.github.io/assets/images/products/granite/granite-1.jpg") no-repeat scroll center center;
+  /* center center fixed; */
   background-size: cover; }
   .landing .landing__text-wrap {
     display: flex;
